@@ -5,6 +5,6 @@ from django.shortcuts import render, HttpResponse
 def home(request):
     return render(request, 'webiqlimapp/home.html')
 
-def servicios(request):
-    return render(request, 'WebIqlimApp/servicios.html')
+#def servicios(request):
+#    return render(request, 'WebIqlimApp/servicios.html')
 

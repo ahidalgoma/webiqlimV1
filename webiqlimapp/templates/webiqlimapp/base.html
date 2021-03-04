@@ -39,7 +39,7 @@
                         <nav id="nav">
                             <ul class="links">
                                 <li {% if request.path == '/' %}class="active"{% endif %}><a href="{% url 'home' %}">La puerta de la luz</a></li>
-                                <li {% if request.path|slice:':10' == '/servicios' %}class="active"{% endif %}><a href="{% url 'servicios' %}">Nuestros Servicios</a></li>
+                                <li {% if request.path|slice:':10' == '/servicios' %}class="active"{% endif %}><a href="{% url 'Servicios' %}">Nuestros Servicios</a></li>
                                 <li><a href="elements.html">Blog</a></li>
                             </ul>
                             <ul class="icons">

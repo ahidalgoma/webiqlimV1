@@ -1,0 +1,20 @@
+{% extends "webiqlimapp/base.html" %}
+
+{% load static %}
+					
+{% block content %}
+				<!-- Main -->
+					<div id="main">
+						{% for servicio in servicios %}
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<h1>{{servicio.titulo}}</h1>
+								</header>
+								<div class="image main"><img src="{{servicio.imagen.url}}" alt="" style="width: 50%;"></div>
+								<p>{{servicio.contenido}}</p>
+							</section>
+						{% endfor %}
+					</div>
+				
+{% endblock %}
