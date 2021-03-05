@@ -6,7 +6,8 @@
 -->
 <html>
 	{% load static %}	
-        <head>
+
+		<head>
             <title>Iqlim</title>
             <meta charset="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -60,6 +61,7 @@
 					<footer id="footer">
 						<section>
 							<form method="post" action="#">
+								{% csrf_token %}
 								<div class="fields">
 									<div class="field">
 										<label for="name">Nombre</label>
