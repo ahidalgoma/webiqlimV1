@@ -43,7 +43,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_summernote', 
     'webiqlimapp',
-    'servicios'
+    'servicios',
+    'blog',
 ]
 
 MIDDLEWARE = [
@@ -130,6 +131,17 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+# Configuración de email salientes
+
+EMAIL_BACKEND="django.core.mail.backends.smtp.EmailBackend"
+EMAIL_HOST=os.getenv('DIR_MAILHOST')
+EMAIL_USE_SSL=True
+EMAIL_PORT=int(os.getenv('PTO_MAILHOST'))
+EMAIL_HOST_USER=os.getenv('CO_MAIL')
+EMAIL_HOST_PASSWORD=os.getenv('PASS_MAIL')
+
+
+# Summernote
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 STATIC_ROOT = os.path.join(BASE_DIR, 'webiqlimapp/static/')
