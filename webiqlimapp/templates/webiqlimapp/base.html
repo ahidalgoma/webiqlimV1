@@ -41,7 +41,7 @@
                             <ul class="links">
                                 <li {% if request.path == '/' %}class="active"{% endif %}><a href="{% url 'home' %}">La puerta de la luz</a></li>
                                 <li {% if request.path|slice:':10' == '/servicios' %}class="active"{% endif %}><a href="{% url 'Servicios' %}">Nuestros Servicios</a></li>
-                                <li><a href="elements.html">Blog</a></li>
+                                <li {% if request.path|slice:':5' == '/blog' %}class="active"{% endif %}><a href="{% url 'blog' %}">Blog</a></li>
                             </ul>
                             <ul class="icons">
                                 <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>

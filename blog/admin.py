@@ -9,6 +9,11 @@ class CategoriaAdmin(admin.ModelAdmin):
 
 class PostAdmin(SummernoteModelAdmin): 
     summernote_fields = '__all__'
+    list_display=('titulo', 'autor', 'created')
+    list_filter=('categorias', 'created')
+    date_hierarchy='created'
+    search_fields=('titulo', '6contenido')
+    
 
 
 admin.site.register(Categoria, CategoriaAdmin)

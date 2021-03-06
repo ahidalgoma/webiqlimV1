@@ -18,7 +18,7 @@ class Categoria(models.Model):
 class Post(models.Model):
     titulo=models.CharField(max_length=50, help_text="Título del Post")
     contenido=models.TextField(blank=True, null=True)
-    imagen=models.ImageField(upload_to='blog', null=True, blank=True)
+    imagen=models.ImageField(upload_to='blog')
     autor=models.ForeignKey(User, on_delete=models.CASCADE) 
     categorias=models.ManyToManyField(Categoria)
     created=models.DateTimeField(auto_now_add=True)
@@ -27,6 +27,7 @@ class Post(models.Model):
     class Meta:
         verbose_name='post'
         verbose_name_plural='posts'
+        ordering = ["-created"]
 
     def __str__(self):
         return self.titulo

@@ -22,5 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('webiqlimapp.urls')),
     path('servicios/', include('servicios.urls')),
+    path('blog/', include('blog.urls')),
     path('summernotes/', include('django_summernote.urls')),
 ]

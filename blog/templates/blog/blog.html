@@ -1,0 +1,62 @@
+{% extends "webiqlimapp/base.html" %}
+
+{% load static %}
+					
+{% block content %}
+
+				<!-- Main -->
+                <div id="main">
+                    {% if "valido" in request.GET %}
+                        <p>Su mensaje se recibió correctamente. Muchas Gracias</p>
+                    {% endif %}
+                    {% for post in posts %}
+                    {% if forloop.first %}
+                    <!-- Featured Post -->
+                        <article class="post featured">
+                            <header class="major">
+                                <span class="date">{{post.created}}</span>
+                                <h2><a href="#">{{post.titulo}}</a></h2>
+                                <p>{{post.contenido|safe|slice:':100'}}</p>
+                            </header>
+                            <a href="#" class="image main"><img src={{post.imagen.url}} alt=""/></a>
+                            <ul class="actions special">
+                                <li><a href="#" class="button large">Leer</a></li>
+                            </ul>
+                        </article>
+                    {% else %}
+                    <!-- Posts -->
+                        {% if forloop.counter0 == 1 %}
+                            <section class="posts">
+                        {% endif %}
+                            <article>
+                                <header>
+                                    <span class="date">{{post.created}}</span>
+                                    <h2><a href="#">{{post.titulo}}</a></h2>
+                                </header>
+                                <a href="#" class="image fit"><img src={{post.imagen.url}} alt="" /></a>
+                                <p>{{post.contenido|safe|slice:':50'}}</p>
+                                <ul class="actions special">
+                                    <li><a href="#" class="button">Leer</a></li>
+                                </ul>
+                            </article>
+                    {% endif %}
+                    {% endfor %}
+                            </section>
+                    <!-- Footer -->
+                        <footer>
+                            <div class="pagination">
+                                <!--<a href="#" class="previous">Prev</a>-->
+                                <a href="#" class="page active">1</a>
+                                <a href="#" class="page">2</a>
+                                <a href="#" class="page">3</a>
+                                <span class="extra">&hellip;</span>
+                                <a href="#" class="page">8</a>
+                                <a href="#" class="page">9</a>
+                                <a href="#" class="page">10</a>
+                                <a href="#" class="next">Siguientes</a>
+                            </div>
+                        </footer>
+
+                </div>
+
+{% endblock %}
