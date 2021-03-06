@@ -18,9 +18,9 @@
                                 <h2><a href="#">{{post.titulo}}</a></h2>
                                 <p>{{post.contenido|safe|slice:':100'}}</p>
                             </header>
-                            <a href="#" class="image main"><img src={{post.imagen.url}} alt=""/></a>
+                            <a href="{% url 'verblog' post.id %}" class="image main"><img src={{post.imagen.url}} alt=""/></a>
                             <ul class="actions special">
-                                <li><a href="#" class="button large">Leer</a></li>
+                                <li><a href="{% url 'verblog' post.id %}" class="button large">Leer</a></li>
                             </ul>
                         </article>
                     {% else %}
@@ -33,10 +33,10 @@
                                     <span class="date">{{post.created}}</span>
                                     <h2><a href="#">{{post.titulo}}</a></h2>
                                 </header>
-                                <a href="#" class="image fit"><img src={{post.imagen.url}} alt="" /></a>
+                                <a href="{% url 'verblog' post.id %}" class="image fit"><img src={{post.imagen.url}} alt="" /></a>
                                 <p>{{post.contenido|safe|slice:':50'}}</p>
                                 <ul class="actions special">
-                                    <li><a href="#" class="button">Leer</a></li>
+                                    <li><a href="{% url 'verblog' post.id %}" class="button">Leer</a></li>
                                 </ul>
                             </article>
                     {% endif %}

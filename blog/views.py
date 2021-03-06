@@ -36,3 +36,28 @@ def blog(request):
         formulario_contacto=FormularioContacto()
 
     return render(request, 'blog/blog.html', {"posts": posts, 'miFormulario':formulario_contacto})
+
+def verblog(request, post_id):
+    post = Post.objects.get(id=post_id)
+    
+    if request.method=="POST":
+        formulario_contacto=FormularioContacto(request.POST)
+        if formulario_contacto.is_valid():
+            load_dotenv()
+            nombre=request.POST.get("nombre")
+            email=request.POST.get("email")
+            contenido=request.POST.get("contenido")
+            email=EmailMessage("Mensaje desde la web de Iqlim",
+            "el usuario con nombre {} con el mail {} escribe: \n\n {}".format(nombre, email,contenido),
+            os.getenv('CO_MAIL'),[os.getenv('CO_MAIL')],reply_to=[email])
+
+            try:
+                email.send()
+                return redirect ('/blog/?valido')
+            except:
+                return redirect ('/blog/?NOvalido')
+    else:
+        formulario_contacto=FormularioContacto()
+
+    return render(request, 'blog/VerBlog.html', {"post": post, 'miFormulario':formulario_contacto})
+

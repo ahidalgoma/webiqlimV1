@@ -1,0 +1,27 @@
+{% extends "webiqlimapp/base.html" %}
+
+{% load static %}
+					
+{% block content %}
+					
+				<!-- Main -->
+                <div id="main">
+
+                    <!-- Featured Post -->
+                        <article class="post featured">
+                            <header class="major">
+                                <h2><a href="#">{{post}}</a></h2>
+                                <p> {{post.contenido|safe}}</p>
+                                {% if "valido" in request.GET %}
+                               <p>El Mensaje se envió correctamente</p>
+                               {% endif %}
+                            </header>
+                            <a href="#" class="image main"><img src="{{post.imagen.url}}" alt="" /></a>
+                            <ul class="actions special">
+                                <li><a href="#" class="button large">Conócenos</a></li>
+                            </ul>
+                        </article>
+                </div>
+
+
+{% endblock %}
