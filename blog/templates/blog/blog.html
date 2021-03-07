@@ -1,14 +1,11 @@
 {% extends "webiqlimapp/base.html" %}
 
 {% load static %}
-					
+{% load filtros %}					
 {% block content %}
 
 				<!-- Main -->
                 <div id="main">
-                    {% if "valido" in request.GET %}
-                        <p>Su mensaje se recibió correctamente. Muchas Gracias</p>
-                    {% endif %}
                     {% for post in posts %}
                     {% if forloop.first %}
                     <!-- Featured Post -->
@@ -46,14 +43,17 @@
                         <footer>
                             <div class="pagination">
                                 <!--<a href="#" class="previous">Prev</a>-->
-                                <a href="#" class="page active">1</a>
-                                <a href="#" class="page">2</a>
-                                <a href="#" class="page">3</a>
-                                <span class="extra">&hellip;</span>
-                                <a href="#" class="page">8</a>
-                                <a href="#" class="page">9</a>
-                                <a href="#" class="page">10</a>
-                                <a href="#" class="next">Siguientes</a>
+                            {% with ''|center:paginas_totales as range %}
+                            {% for i in range %}
+                                {% with forloop.counter|check as template %}
+                                {% ifequal forloop.counter pagina_activa %}
+                                    <a href="{{template}}" class="page active">{{forloop.counter}}</a>
+                                {% else %}    
+                                    <a href="{{template}}" class="page">{{forloop.counter}}</a>
+                                {%endifequal%}
+                                {% endwith %}
+                            {% endfor %}
+                            {% endwith %}
                             </div>
                         </footer>
 

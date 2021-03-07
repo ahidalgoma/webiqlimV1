@@ -5,8 +5,7 @@
 {% block content %}
 					
 				<!-- Main -->
-					<div id="main">
-
+				<div id="main">
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
@@ -19,13 +18,10 @@
 								   a los objetivos de nuestros  
 								   clientes, ayudándolos a crecer y conectar oportunidades de gran
 								   valor e innovación</p>
-									{% if "valido" in request.GET %}
-								   <p>El Mensaje se envió correctamente</p>
-								   {% endif %}
 								</header>
 								<a href="#" class="image main"><img src="{% static 'webiqlimapp/vendor/images/pic01.jpg' %}" alt="" /></a>
 								<ul class="actions special">
-									<li><a href="#" class="button large">Conócenos</a></li>
+									<li><a href="{% url 'Servicios' %}" class="button large">Servicios</a></li>
 								</ul>
 							</article>
 					</div>
