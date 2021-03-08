@@ -8,6 +8,15 @@ from datetime import date
 
 pagina_activa=1
 
+def cargar_tabla(posts, pagina_inicio):
+    if pagina_inicio != 1:
+        fila_inicio=((pagina_inicio-1)*3)+1
+    else:
+        fila_inicio=1
+    posts = Post.objects.all()[fila_inicio-1:fila_inicio+2]
+    return posts
+
+
 def blog(request):
     posts=[]
 # Se calcula el numero de paginas que debe aparecer en el pie
@@ -44,8 +53,7 @@ def blog(request):
         formulario_contacto=FormularioContacto()
 
     return render(request, 'blog/blog.html', {"posts": posts, 'miFormulario':formulario_contacto, 
-    "paginas_totales":paginas_totales, "pagina_activa":pagina_activa, "posicion_desde":posicion_desde,
-    "posicion_hasta":posicion_hasta})
+    "paginas_totales":paginas_totales, "pagina_activa":pagina_activa})
 
 
 def verblog(request, post_id):
@@ -68,11 +76,32 @@ def verblog(request, post_id):
 
     return render(request, 'blog/VerBlog.html', {"post": post, 'miFormulario':formulario_contacto})
 
-def cargar_tabla(posts, pagina_inicio):
-    if pagina_inicio != 1:
-        fila_inicio=((pagina_inicio-1)*3)+1
-    else:
-        fila_inicio=1
-    posts = Post.objects.all()[fila_inicio-1:fila_inicio+2]
-    return posts
 
+def paginablog(request, pagina):
+    numero_pagina=pagina
+    posts=[]
+# Se calcula el numero de paginas que debe aparecer en el pie
+    paginas_totales=round(Post.objects.all().count()/3)
+    if Post.objects.all().count()/3 > paginas_totales:
+        paginas_totales+=1
+
+    posts=cargar_tabla(posts, numero_pagina)    
+
+
+    if request.method=="POST":
+        formulario_contacto=FormularioContacto(request.POST)
+        if formulario_contacto.is_valid():
+            nombre=request.POST.get("nombre")
+            email=request.POST.get("email")
+            contenido=request.POST.get("contenido")            
+            if enviocorreo(nombre, email, contenido):
+                return redirect ('/blog/?valido')
+            else:
+                return redirect ('/blog/?NOenvio')
+        else:
+           return redirect ('/blog/?NOcorrectoscampos')
+    else:
+        formulario_contacto=FormularioContacto()
+
+    return render(request, 'blog/blog.html', {"posts": posts, 'miFormulario':formulario_contacto, 
+    "paginas_totales":paginas_totales, "pagina_activa":numero_pagina})

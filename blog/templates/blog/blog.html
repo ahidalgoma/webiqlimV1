@@ -3,7 +3,6 @@
 {% load static %}
 {% load filtros %}					
 {% block content %}
-
 				<!-- Main -->
                 <div id="main">
                     {% for post in posts %}
@@ -45,18 +44,16 @@
                                 <!--<a href="#" class="previous">Prev</a>-->
                             {% with ''|center:paginas_totales as range %}
                             {% for i in range %}
-                                {% with forloop.counter|check as template %}
+                                {% with forloop.counter|add:"0" as pagina %}
                                 {% ifequal forloop.counter pagina_activa %}
-                                    <a href="{{template}}" class="page active">{{forloop.counter}}</a>
+                                    <a href="{% url 'paginablog' pagina %}" class="page active">{{forloop.counter}}</a>
                                 {% else %}    
-                                    <a href="{{template}}" class="page">{{forloop.counter}}</a>
+                                    <a href="{% url 'paginablog' pagina %}" class="page">{{forloop.counter}}</a>
                                 {%endifequal%}
                                 {% endwith %}
                             {% endfor %}
                             {% endwith %}
                             </div>
                         </footer>
-
                 </div>
-
 {% endblock %}

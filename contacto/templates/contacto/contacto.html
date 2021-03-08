@@ -1,0 +1,56 @@
+{% extends "webiqlimapp/base.html" %}
+
+{% load static %}
+					
+{% block content %}
+
+				<!-- Main -->
+                <div id="main">
+                            <!-- Form -->
+                                <h2>Formulario de Contacto</h2>
+
+                                    {% if "valido" in request.GET %}
+                                        <p style="color: tomato;">Su mensaje se recibió correctamente. Muchas Gracias</p> 
+                                    {% else %} 
+                                        {% if "NOcorrectoscampos" in request.GET %} 
+                                            <p style="color: tomato;">Los campos del formulario de contacto no son correctos</p> 
+                                        {% else %} 
+                                            {% if "NOenvio" in request.GET %} 
+                                                <p style="color: tomato;">El servidor de correo no responde. NO SE RECIBIERON SUS DATOS</p> 
+                                            {% endif %} 
+                                        {% endif %} 
+                                    {% endif %} 
+                                    <form method="post" action="?Envio">
+                                        <div class="row gtr-uniform">
+                                        <div class="col-6 col-12-xsmall">
+                                            <label for="Nombre">Nombre</label>
+                                            {{miFormulario.nombre}}
+                                        </div>
+                                        <div class="col-6 col-12-xsmall">
+                                            <label for="Email">Email</label>
+                                            {{miFormulario.email}}
+                                        </div>
+                                        <!-- Break -->
+                                        <div class="col-6 col-12-small">
+                                            <label for="Captcha">Captcha</label>
+                                            {{miFormulario.captcha}}
+                                        </div>
+                                        <!-- Break -->
+                                        <div class="col-12">
+                                            <label for="Contenido">Contenido</label>
+                                            {{miFormulario.contenido}}
+                                        </div>
+                                        <!-- Break -->
+                                        <div class="col-12">
+                                            <ul class="actions">
+                                                {% csrf_token %}
+                                                
+                                                <li><input type="submit" value="Send Message" class="primary" /></li>
+                                                <li><input type="reset" value="Reset" /></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </form>
+                </div>
+{% endblock %}
+

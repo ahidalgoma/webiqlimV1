@@ -45,6 +45,8 @@ INSTALLED_APPS = [
     'webiqlimapp',
     'servicios',
     'blog',
+    'contacto',
+    'captcha',
 ]
 
 MIDDLEWARE = [

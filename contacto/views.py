@@ -1,27 +1,28 @@
 from django.shortcuts import render, HttpResponse, redirect
-from .forms import FormularioContacto
+from contacto.forms import FormularioContacto
 from webiqlimapp.funciones.enviocorreo import enviocorreo
-
 
 
 # Create your views here.
 
-def home(request):
+def contacto(request):
+    formulario_contacto=FormularioContacto()
 
     if request.method=="POST":
         formulario_contacto=FormularioContacto(request.POST)
+        
         if formulario_contacto.is_valid():
             nombre=request.POST.get("nombre")
             email=request.POST.get("email")
             contenido=request.POST.get("contenido")            
             if enviocorreo(nombre, email, contenido):
-                return redirect ('/servicios/?valido')
+                return redirect ('/contacto/?valido')
             else:
-                return redirect ('/servicios/?NOenvio')
+                return redirect ('/contacto/?NOenvio')
         else:
-           return redirect ('/servicios/?NOcorrectoscampos')
+           return redirect ('/contacto/?NOcorrectoscampos')
     else:
         formulario_contacto=FormularioContacto()
 
-    return render(request, 'webiqlimapp/home.html', {'miFormulario':formulario_contacto})
+    return render(request, 'contacto/contacto.html', {'miFormulario':formulario_contacto})
 

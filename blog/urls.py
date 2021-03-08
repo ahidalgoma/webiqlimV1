@@ -9,4 +9,5 @@ urlpatterns = [
 
     path('', views.blog, name="blog"),
     path('verblog/<int:post_id>/', views.verblog, name='verblog'),
+    path('paginablog/<int:pagina>/', views.paginablog, name='paginablog'),
 ]

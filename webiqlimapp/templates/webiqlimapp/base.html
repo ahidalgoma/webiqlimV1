@@ -15,7 +15,6 @@
             <noscript><link rel="stylesheet" href="{% static 'webiqlimapp/vendor/assets/css/noscript.css' %}" /></noscript>
         </head>
     <body class="is-preload">
-    
             <!-- Wrapper -->
                 <div id="wrapper"  {% if request.path == '/' %}class="fade-in"{% endif %}>
     
@@ -49,20 +48,7 @@
                                 <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
                             </ul>
                         </nav>
-                </div>        
-<!				{% if "valido" in request.GET %}>
-<!					<p style="color: tomato;">Su mensaje se recibió correctamente. Muchas Gracias</p> >
-<!				{% else %} >
-<!					{% if "NOcorrectoscampos" in request.GET %} >
-<!						<p style="color: tomato;">Los campos del formulario de contacto no son correctos</p> >
-<!					{% else %} >
-<!						{% if "NOenvio" in request.GET %} >
-<!							<p style="color: tomato;">El servidor de correo no responde. NO SE RECIBIERON SUS DATOS</p> >
-<!						{% else %} >
-<!							<p style="color: tomato;">{{request.GET}}Desde:{{posicion_desde}}Hasta:{{posicion_hasta}}</p> >
-<!						{% endif %} >
-<!					{% endif %} >
-<!				{% endif %} >
+                </div>     
 <! ------> Aquí va el cuerpo------------>
 {% block content %}
 
