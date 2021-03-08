@@ -1,6 +1,6 @@
 from django import forms
 from django.shortcuts import render, HttpResponse, redirect
-from webiqlimapp.forms import FormularioContacto
+from contacto.forms import FormularioContacto
 from django.core.mail import EmailMessage
 import os
 from dotenv import load_dotenv

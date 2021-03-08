@@ -40,6 +40,7 @@
                                 <li {% if request.path == '/' %}class="active"{% endif %}><a href="{% url 'home' %}">La puerta de la luz</a></li>
                                 <li {% if request.path|slice:':10' == '/servicios' %}class="active"{% endif %}><a href="{% url 'Servicios' %}">Nuestros Servicios</a></li>
                                 <li {% if request.path|slice:':5' == '/blog' %}class="active"{% endif %}><a href="{% url 'blog' %}">Blog</a></li>
+                                <li {% if request.path|slice:':9' == '/contacto' %}class="active"{% endif %}><a href="{% url 'Contacto' %}">Contacto</a></li>
                             </ul>
                             <ul class="icons">
                                 <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
@@ -47,18 +48,16 @@
                                 <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
                                 <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
                             </ul>
-                        </nav>
-                </div>     
+                        </nav>   
 <! ------> Aquí va el cuerpo------------>
 {% block content %}
 
 
 {% endblock %}
-                <div>
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
-							<form method="post" action="">
+							<form method="post" action="{% url 'Contacto' %}">
 								{% csrf_token %}
 								<div class="fields">
 									<div class="field">

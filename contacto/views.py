@@ -6,21 +6,14 @@ from webiqlimapp.funciones.enviocorreo import enviocorreo
 # Create your views here.
 
 def contacto(request):
-    formulario_contacto=FormularioContacto()
-
     if request.method=="POST":
         formulario_contacto=FormularioContacto(request.POST)
-        
         if formulario_contacto.is_valid():
             nombre=request.POST.get("nombre")
             email=request.POST.get("email")
             contenido=request.POST.get("contenido")            
             if enviocorreo(nombre, email, contenido):
                 return redirect ('/contacto/?valido')
-            else:
-                return redirect ('/contacto/?NOenvio')
-        else:
-           return redirect ('/contacto/?NOcorrectoscampos')
     else:
         formulario_contacto=FormularioContacto()
 
