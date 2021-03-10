@@ -25,6 +25,7 @@ urlpatterns = [
     path('blog/', include('blog.urls')),
     path('contacto/', include('contacto.urls')),
     path('summernotes/', include('django_summernote.urls')),
+    path('cookies/', include('cookie_consent.urls')),
 ]
 urlpatterns += [
     path('captcha/', include('captcha.urls')),

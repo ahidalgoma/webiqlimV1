@@ -17,6 +17,7 @@ class Categoria(models.Model):
 
 class Post(models.Model):
     titulo=models.CharField(max_length=50, help_text="Título del Post")
+    publicar=models.BooleanField(help_text="Una vez marcado aparecera en la web")
     contenido=models.TextField(blank=True, null=True)
     imagen=models.ImageField(upload_to='blog')
     autor=models.ForeignKey(User, on_delete=models.CASCADE) 

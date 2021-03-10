@@ -6,7 +6,6 @@
 -->
 <html>
 	{% load static %}	
-
 		<head>
             <title>Iqlim</title>
             <meta charset="utf-8" />
@@ -14,7 +13,7 @@
             <link rel="stylesheet" href="{% static 'webiqlimapp/vendor/assets/css/main.css' %}" />
             <noscript><link rel="stylesheet" href="{% static 'webiqlimapp/vendor/assets/css/noscript.css' %}" /></noscript>
         </head>
-    <body class="is-preload">
+    	<body class="is-preload">
             <!-- Wrapper -->
                 <div id="wrapper"  {% if request.path == '/' %}class="fade-in"{% endif %}>
     
@@ -51,8 +50,6 @@
                         </nav>   
 <! ------> Aquí va el cuerpo------------>
 {% block content %}
-
-
 {% endblock %}
 				<!-- Footer -->
 					<footer id="footer">

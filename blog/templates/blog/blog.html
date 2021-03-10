@@ -5,6 +5,16 @@
 {% block content %}
 				<!-- Main -->
                 <div id="main">
+                    <div class="pagination">
+                        <form method="POST" action="{% url 'buscar_blog'%}">
+                            <ul class="actions special">
+                            <li><input type="search" class="form-control rounded" placeholder="Buscar ..." name="buscar" aria-label="Search"
+                              aria-describedby="search-addon" /></li>
+                            <li><input type="submit" class="button" value="Buscar" /></li>
+                            </ul>
+                            {% csrf_token %}
+                        </form>
+                    </div>  
                     {% for post in posts %}
                     {% if forloop.first %}
                     <!-- Featured Post -->

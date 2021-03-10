@@ -9,10 +9,10 @@ class CategoriaAdmin(admin.ModelAdmin):
 
 class PostAdmin(SummernoteModelAdmin): 
     summernote_fields = '__all__'
-    list_display=('titulo', 'autor', 'created')
-    list_filter=('categorias', 'created')
+    list_display=('titulo', 'publicar', 'autor', 'created')
+    list_filter=('publicar', 'categorias', 'created')
     date_hierarchy='created'
-    search_fields=('titulo', '6contenido')
+    search_fields=('titulo', 'contenido')
     
 
 
