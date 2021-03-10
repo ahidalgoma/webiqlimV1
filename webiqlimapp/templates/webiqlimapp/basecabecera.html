@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	{% load static %}	
+		<head>
+            <title>Iqlim</title>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+            <link rel="stylesheet" href="{% static 'webiqlimapp/vendor/assets/css/main.css' %}" />
+            <noscript><link rel="stylesheet" href="{% static 'webiqlimapp/vendor/assets/css/noscript.css' %}" /></noscript>
+        </head>
+    	<body class="is-preload">
+            <!-- Wrapper -->
+                <div id="wrapper"  {% if request.path == '/' %}class="fade-in"{% endif %}>
+    
+                    <!-- Intro -->
+                    {% if request.path == '/' %}
+                        <div id="intro">
+                            <h1>Bienvenidos<br />
+                            a IQLIM</h1>
+                            <p>Innovación y Tradición</p>
+                            <ul class="actions">
+                                <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+                            </ul>
+                        </div>
+                    {% endif %}
+    
+                    <!-- Header -->
+                        <header id="header">
+                            <a href="{% url 'home' %}" class="logo">IQLIM</a>
+                        </header>
+                    <!-- Nav -->
+                        <nav id="nav">
+                            <ul class="links">
+                                <li {% if request.path == '/' %}class="active"{% endif %}><a href="{% url 'home' %}">La puerta de la luz</a></li>
+                                <li {% if request.path|slice:':10' == '/servicios' %}class="active"{% endif %}><a href="{% url 'Servicios' %}">Nuestros Servicios</a></li>
+                                <li {% if request.path|slice:':5' == '/blog' %}class="active"{% endif %}><a href="{% url 'blog' %}">Blog</a></li>
+                                <li {% if request.path|slice:':9' == '/contacto' %}class="active"{% endif %}><a href="{% url 'Contacto' %}">Contacto</a></li>
+                            </ul>
+                            <ul class="icons">
+                                <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                                <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+                                <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                                <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                            </ul>
+                        </nav>   
+<! ------> Aquí va el cuerpo y el pie ------------>
+{% block content %}
+{% endblock %}
