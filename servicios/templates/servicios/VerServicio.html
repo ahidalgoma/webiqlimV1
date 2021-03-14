@@ -1,0 +1,20 @@
+{% extends "webiqlimapp/base.html" %}
+
+{% load static %}
+					
+{% block content %}
+					
+				<!-- Main -->
+                <div id="main">
+
+                    <!-- Featured Post -->
+                        <article class="post featured">
+                            <header class="major">
+                                <h2><p id='servicio'>{{servicio.titulo}}</p></h2>
+                                <p> {{servicio.contenido|safe}}</p>
+                            </header>
+                        </article>
+                </div>
+
+            
+{% endblock %}

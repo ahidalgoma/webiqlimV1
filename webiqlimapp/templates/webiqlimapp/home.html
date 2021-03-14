@@ -9,17 +9,15 @@
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
-									<h2><a href="#">Creamos experiencias<br />
-									Comunicación, Visibilidad, Digitalización y mucho más</a></h2>
-									<p> IQlim es una agencia que nace con la idea de crear nuevas experiencias y soluciones a nuestros clientes
-									  <br />
-									  Estamos en constante evolución produciendo ideas y mejores soluciones que generen resultados reales
-								   <br />
-								   a los objetivos de nuestros  
-								   clientes, ayudándolos a crecer y conectar oportunidades de gran
-								   valor e innovación</p>
+									<h2><a href="#">{{param.titulo_hoja}}</a></h2>
+									{% if param.efecto_imagen == 'A' %}
+										<a href="#" class="image main"><img src="{{param.imagen.url}}" alt="" /></a>
+									{% endif %}
+									<p>{{param.contenido|safe}}</p>
 								</header>
-								<a href="#" class="image main"><img src="{% static 'webiqlimapp/vendor/images/pic01.jpg' %}" alt="" /></a>
+								{% if param.efecto_imagen == 'D' %}
+									<a href="#" class="image main"><img src="{{param.imagen.url}}" alt="" /></a>
+								{% endif %}
 								<ul class="actions special">
 									<li><a href="{% url 'Servicios' %}" class="button large">Servicios</a></li>
 								</ul>

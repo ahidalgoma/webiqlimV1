@@ -1,6 +1,7 @@
 from django.shortcuts import render, HttpResponse, redirect
 from contacto.forms import FormularioContacto
 from webiqlimapp.funciones.enviocorreo import enviocorreo
+from webiqlimapp.models import ParamWeb
 from django.db.models import Q
 from .models import Post
 from datetime import date
@@ -25,6 +26,12 @@ def cargar_tabla(pagina_inicio):
 
 
 def blog(request):
+    idioma_actual='es-EU'
+    try:
+        param=ParamWeb.objects.get(activa=True, idioma=idioma_actual)
+    except:
+        param=Paramweb.objetcs.get(activa=True, idioma='es-EU')
+
     paginas_totales=1
     posts=[]
 # --------------
@@ -35,19 +42,32 @@ def blog(request):
 
     formulario_contacto=FormularioContacto()
 
-    return render(request, 'blog/blog.html', {"posts": posts, 'miFormulario':formulario_contacto, 
+    return render(request, 'blog/blog.html', {"posts": posts, 
+    'param':param, 'miFormulario':formulario_contacto, 
     "paginas_totales":paginas_totales, "pagina_activa":pagina_activa})
 
 
 def verblog(request, post_id):
+    idioma_actual='es-EU'
+    try:
+        param=ParamWeb.objects.get(activa=True, idioma=idioma_actual)
+    except:
+        param=Paramweb.objetcs.get(activa=True, idioma='es-EU')
+
     post = Post.objects.get(id=post_id)
     
     formulario_contacto=FormularioContacto()
 
-    return render(request, 'blog/VerBlog.html', {"post": post, 'miFormulario':formulario_contacto})
+    return render(request, 'blog/VerBlog.html', {"post": post, 'miFormulario':formulario_contacto, 'param':param})
 
 
 def paginablog(request, pagina):
+    idioma_actual='es-EU'
+    try:
+        param=ParamWeb.objects.get(activa=True, idioma=idioma_actual)
+    except:
+        param=Paramweb.objetcs.get(activa=True, idioma='es-EU')
+
     numero_pagina=pagina
     posts=[]
     paginas_totales=1
@@ -59,9 +79,15 @@ def paginablog(request, pagina):
     formulario_contacto=FormularioContacto()
 
     return render(request, 'blog/blog.html', {"posts": posts, 'miFormulario':formulario_contacto, 
-    "paginas_totales":paginas_totales, "pagina_activa":numero_pagina})
+    "paginas_totales":paginas_totales, "pagina_activa":numero_pagina, 'param':param})
 
 def buscar_blog(request):
+    idioma_actual='es-EU'
+    try:
+        param=ParamWeb.objects.get(activa=True, idioma=idioma_actual)
+    except:
+        param=Paramweb.objetcs.get(activa=True, idioma='es-EU')
+
     if request.method == 'POST':
         queryset=request.POST.get('buscar')
         if queryset:
@@ -73,5 +99,5 @@ def buscar_blog(request):
             posts = Post.objects.filter(publicar=True)
 
     formulario_contacto=FormularioContacto()
-    return render(request, 'blog/buscar_blog.html', {"posts": posts, 'miFormulario':formulario_contacto})
+    return render(request, 'blog/buscar_blog.html', {"posts": posts, 'miFormulario':formulario_contacto, 'param':param})
             

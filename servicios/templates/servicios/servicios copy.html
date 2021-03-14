@@ -1,0 +1,33 @@
+{% extends "webiqlimapp/base.html" %}
+
+{% load static %}
+					
+{% block content %}
+					
+
+				<!-- Main -->
+                <div id="main">
+                    <div class="box alt">
+                        <div class="row gtr-50 gtr-uniform">
+                            {% for servicio in servicios %}
+                                <!-- Servicios -->
+                                {% if forloop.counter == 5 %}
+                                <div class="col-4">
+                                    <span class="image fit">
+                                        <img src="\media\servicios\iqlim.jpg" alt="" />
+                                    </span>
+                                </div>
+                                {% endif %}
+                                <div class="col-4">
+                                    <a href="{% url 'verservicio' servicio.id %}" class="image fit">
+                                        <img src={{servicio.imagen.url}} alt="" />
+                                    </a>
+                                </div>
+                            {% endfor %}
+                        </div>
+
+                    </div>
+                </div>
+				
+
+{% endblock %}

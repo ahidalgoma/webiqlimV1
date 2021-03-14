@@ -6,6 +6,6 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
-
+    path('verservicio/<int:servicio_id>/', views.verservicio, name='verservicio'),
     path('', views.servicios, name="Servicios"),
 ]

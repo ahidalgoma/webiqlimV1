@@ -3,20 +3,42 @@
 {% load static %}
 					
 {% block content %}
+					
 
 				<!-- Main -->
                 <div id="main">
-                    {% for servicio in servicios %}
-                    <!-- Post -->
-                        <section class="post">
-                            <header class="major">
-                                <h1>{{servicio.titulo}}</h1>
-                            </header>
-                            <div class="image main"><img src="{{servicio.imagen.url}}" alt=""></div>
-                            <p>{{servicio.contenido|safe}}</p>
-                        </section>
-                    {% endfor %}
+                    <section class="post">
+                    <div class="box alt">
+                        <div class="row gtr-50 gtr-uniform">
+                            {% for servicio in servicios %}
+                                <!-- Servicios -->
+                                {% if servicio.efecto == 'M' %}
+                                    <div class="col-4">
+                                {% else %}
+                                    <div class="col-3">
+                                {% endif %}
+                                {% if servicio.eslogo %}
+                                <span class="image fit">
+                                    <img src={{servicio.imagen.url}} style="border-radius: 50%;" alt="Logo Iqlim"/>
+                                </span>
+                                {% else %}
+                                <div class="card" style="width: 60%;">
+                                    <div class="card-header">
+                                        {% if servicio.formato == 'C'%}
+                                            <a href="{% url 'verservicio' servicio.id %}" class="image fit"><img src={{servicio.imagen.url}} style="border-radius: 50%;" alt={{servicio.titulo}} /></a>
+                                        {% else %}
+                                            <a href="{% url 'verservicio' servicio.id %}" class="image fit"><img src={{servicio.imagen.url}} alt={{servicio.titulo}} /></a>    
+                                        {% endif %}  
+                                    </div>
+                                </div>
+                                {% endif %}
+                                </div>
+                            {% endfor %}
+                        </div>
+
+                    </div>
+                    </section>
                 </div>
-            
 				
+
 {% endblock %}

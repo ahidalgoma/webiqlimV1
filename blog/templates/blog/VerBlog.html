@@ -10,10 +10,23 @@
                     <!-- Featured Post -->
                         <article class="post featured">
                             <header class="major">
-                                <h2><a href="#">{{post}}</a></h2>
-                                <p> {{post.contenido|safe}}</p>
+                                <h2><a href="#">{{post.titulo}}</a></h2>
+                                {% if post.efecto_imagen == 'A' %}
+                                <a href="#" class="image main"><img src="{{post.imagen.url}}" alt="Imagen del post" /></a>
+                                {% endif %}
+                                {% if post.efecto_imagen == 'I' %}
+                                <p><span class="image left"><img src="{{post.imagen.url}}" alt="Imagen del post" /></span>{{post.contenido|safe}}</p>
+                                {% endif %}
+                                {% if post.efecto_imagen == 'D' %}
+                                <p><span class="image right"><img src="{{post.imagen.url}}" alt="Imagen del post" /></span>{{post.contenido|safe}}</p>
+                                {% endif %}
+                                {% if post.efecto_imagen == 'N' or post.efecto_imagen == 'A' or post.efecto_imagen == 'P' %}
+                                <p>{{post.contenido|safe}}</p>
+                                {% endif %}
                             </header>
-                            <a href="#" class="image main"><img src="{{post.imagen.url}}" alt="" /></a>
+                            {% if post.efecto_imagen == 'P' %}
+                                <a href="#" class="image main"><img src="{{post.imagen.url}}" alt="" /></a>
+                            {% endif %}
                             <ul class="actions special">
                                 <li><a href="{% url 'blog' %}" class="button large">Blogs</a></li>
                             </ul>
