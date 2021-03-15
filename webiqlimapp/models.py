@@ -11,7 +11,7 @@ class ParamWeb(models.Model):
     titulo_menu=models.CharField(max_length=50, help_text="Título en el menú")
     titulo_hoja=models.CharField(max_length=50, help_text="Título en la página")
     contenido=models.TextField(blank=True, null=True)
-    imagen=models.ImageField(upload_to='weblimapp')
+    imagen=models.ImageField(upload_to='webiqlimapp')
     efecto_imagen=models.CharField(max_length=1, help_text="Lugar de aparición de la imagen", default="N", choices=POSIBLES_VALORES)
     activa=models.BooleanField(help_text="Si está activa esta será la que se publique")
     created=models.DateTimeField(auto_now_add=True)

@@ -18,16 +18,23 @@
                                     <div class="col-3">
                                 {% endif %}
                                 {% if servicio.eslogo %}
-                                <span class="image fit">
-                                    <img src={{servicio.imagen.url}} style="border-radius: 50%;" alt="Logo Iqlim"/>
-                                </span>
+                                        {% if servicio.formato == 'C' %}
+                                        <span class="image fit">
+                                          <img src={{servicio.imagen.url}} style="border-radius: 50%;"
+                                             alt="Logo Iqlim"/>
+                                        </span>
+                                        {% else %}
+                                        <span class="image fit">
+                                            <img src={{servicio.imagen.url}} alt="Logo Iqlim"/>
+                                        </span>
+                                        {% endif %}
                                 {% else %}
                                 <div class="card" style="width: 60%;">
                                     <div class="card-header">
                                         {% if servicio.formato == 'C'%}
-                                            <a href="{% url 'verservicio' servicio.id %}" class="image fit"><img src={{servicio.imagen.url}} style="border-radius: 50%;" alt={{servicio.titulo}} /></a>
+                                            <a href="{% url 'verservicio' servicio.id %}" class="imagen fit"><img src={{servicio.imagen.url}} style="border-radius: 50%;" alt={{servicio.titulo}} /></a>
                                         {% else %}
-                                            <a href="{% url 'verservicio' servicio.id %}" class="image fit"><img src={{servicio.imagen.url}} alt={{servicio.titulo}} /></a>    
+                                            <a href="{% url 'verservicio' servicio.id %}" class="imagen fit"><img src={{servicio.imagen.url}} alt={{servicio.titulo}} /></a>    
                                         {% endif %}  
                                     </div>
                                 </div>
