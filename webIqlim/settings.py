@@ -14,15 +14,17 @@ from pathlib import Path
 import os
 from dotenv import load_dotenv
 # Get the base directory
-basepath = Path()
-basedir = str(basepath.cwd())
-# Load the environment variables
-envars = basepath.cwd() / '.env'
-load_dotenv(envars)
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+
+basepath = Path(os.path.join(BASE_DIR, 'webiqlimapp/static/'))
+
+basedir = str(basepath.cwd())
+# Load the environment variables
+envars = basepath / '.env'
+load_dotenv(envars)
 
 
 # Quick-start development settings - unsuitable for production
@@ -32,9 +34,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = bool( os.getenv('DJANGO_DEBUG', True) )
-
-ALLOWED_HOSTS = []
+# DEBUG = 'bool( os.getenv('DJANGO_DEBUG', True) )'
+DEBUG = False
+ALLOWED_HOSTS = ['www.iqlim.net', 'iqlim.net', 'localhost','localhost:8000']
 
 
 # Application definition
@@ -57,6 +59,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+#    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -138,6 +141,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = '/code/static/'
 
 # Configuración de email salientes
 
@@ -152,8 +156,7 @@ EMAIL_HOST_PASSWORD=os.getenv('PASS_MAIL')
 # Summernote
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-STATIC_ROOT = os.path.join(BASE_DIR, 'webiqlimapp/static/')
-
+# STATIC_ROOT = os.path.join(BASE_DIR, 'webiqlimapp/static/')
 
 SUMMERNOTE_THEME = 'bs4'
 SUMMERNOTE_CONFIG = {
@@ -190,3 +193,7 @@ SUMMERNOTE_CONFIG = {
 
 # From Django 3.0, this setting is necessary for iframe
 X_FRAME_OPTIONS = 'SAMEORIGIN'
+
+# Simplified static file serving.
+# https://warehouse.python.org/project/whitenoise/
+# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'

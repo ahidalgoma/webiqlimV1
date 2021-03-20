@@ -1,0 +1,828 @@
+[Tue Mar 16 15:50:04.661938 2021] [wsgi:error] [pid 17388:tid 1416] [client 127.0.0.1:52828] mod_wsgi (pid=17388): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Tue Mar 16 15:50:04.661938 2021] [wsgi:error] [pid 17388:tid 1416] [client 127.0.0.1:52828] mod_wsgi (pid=17388): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Tue Mar 16 15:50:04.662938 2021] [wsgi:error] [pid 17388:tid 1416] [client 127.0.0.1:52828] Traceback (most recent call last):\r
+[Tue Mar 16 15:50:04.662938 2021] [wsgi:error] [pid 17388:tid 1416] [client 127.0.0.1:52828]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 17, in <module>\r
+[Tue Mar 16 15:50:04.662938 2021] [wsgi:error] [pid 17388:tid 1416] [client 127.0.0.1:52828]     if path_home not in sys.path:\r
+[Tue Mar 16 15:50:04.662938 2021] [wsgi:error] [pid 17388:tid 1416] [client 127.0.0.1:52828] NameError: name 'sys' is not defined\r
+[Tue Mar 16 15:50:04.778911 2021] [wsgi:error] [pid 17388:tid 1412] [client 127.0.0.1:52829] mod_wsgi (pid=17388): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'., referer: http://127.0.0.2/
+[Tue Mar 16 15:50:04.778911 2021] [wsgi:error] [pid 17388:tid 1412] [client 127.0.0.1:52829] mod_wsgi (pid=17388): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'., referer: http://127.0.0.2/
+[Tue Mar 16 15:50:04.778911 2021] [wsgi:error] [pid 17388:tid 1412] [client 127.0.0.1:52829] Traceback (most recent call last):\r, referer: http://127.0.0.2/
+[Tue Mar 16 15:50:04.779910 2021] [wsgi:error] [pid 17388:tid 1412] [client 127.0.0.1:52829]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 17, in <module>\r, referer: http://127.0.0.2/
+[Tue Mar 16 15:50:04.779910 2021] [wsgi:error] [pid 17388:tid 1412] [client 127.0.0.1:52829]     if path_home not in sys.path:\r, referer: http://127.0.0.2/
+[Tue Mar 16 15:50:04.779910 2021] [wsgi:error] [pid 17388:tid 1412] [client 127.0.0.1:52829] NameError: name 'sys' is not defined\r, referer: http://127.0.0.2/
+[Tue Mar 16 22:01:45.334660 2021] [wsgi:error] [pid 2544:tid 1404] [client 127.0.0.1:60673] mod_wsgi (pid=2544): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Tue Mar 16 22:01:45.335682 2021] [wsgi:error] [pid 2544:tid 1404] [client 127.0.0.1:60673] mod_wsgi (pid=2544): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Tue Mar 16 22:01:45.335682 2021] [wsgi:error] [pid 2544:tid 1404] [client 127.0.0.1:60673] Traceback (most recent call last):\r
+[Tue Mar 16 22:01:45.335682 2021] [wsgi:error] [pid 2544:tid 1404] [client 127.0.0.1:60673]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 17, in <module>\r
+[Tue Mar 16 22:01:45.335682 2021] [wsgi:error] [pid 2544:tid 1404] [client 127.0.0.1:60673]     if path_home not in sys.path:\r
+[Tue Mar 16 22:01:45.335682 2021] [wsgi:error] [pid 2544:tid 1404] [client 127.0.0.1:60673] NameError: name 'sys' is not defined\r
+[Tue Mar 16 22:01:45.436689 2021] [wsgi:error] [pid 2544:tid 1408] [client ::1:60677] mod_wsgi (pid=2544): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'., referer: http://localhost/
+[Tue Mar 16 22:01:45.436689 2021] [wsgi:error] [pid 2544:tid 1408] [client ::1:60677] mod_wsgi (pid=2544): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'., referer: http://localhost/
+[Tue Mar 16 22:01:45.436689 2021] [wsgi:error] [pid 2544:tid 1408] [client ::1:60677] Traceback (most recent call last):\r, referer: http://localhost/
+[Tue Mar 16 22:01:45.436689 2021] [wsgi:error] [pid 2544:tid 1408] [client ::1:60677]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 17, in <module>\r, referer: http://localhost/
+[Tue Mar 16 22:01:45.436689 2021] [wsgi:error] [pid 2544:tid 1408] [client ::1:60677]     if path_home not in sys.path:\r, referer: http://localhost/
+[Tue Mar 16 22:01:45.436689 2021] [wsgi:error] [pid 2544:tid 1408] [client ::1:60677] NameError: name 'sys' is not defined\r, referer: http://localhost/
+[Wed Mar 17 08:56:15.822895 2021] [wsgi:error] [pid 2544:tid 1404] [client ::1:61685] mod_wsgi (pid=2544): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Wed Mar 17 08:56:15.822895 2021] [wsgi:error] [pid 2544:tid 1404] [client ::1:61685] mod_wsgi (pid=2544): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Wed Mar 17 08:56:15.853910 2021] [wsgi:error] [pid 2544:tid 1404] [client ::1:61685] Traceback (most recent call last):\r
+[Wed Mar 17 08:56:15.853910 2021] [wsgi:error] [pid 2544:tid 1404] [client ::1:61685]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 24, in <module>\r
+[Wed Mar 17 08:56:15.853910 2021] [wsgi:error] [pid 2544:tid 1404] [client ::1:61685]     application = get_wsgi_application()\r
+[Wed Mar 17 08:56:15.853910 2021] [wsgi:error] [pid 2544:tid 1404] [client ::1:61685]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r
+[Wed Mar 17 08:56:15.853910 2021] [wsgi:error] [pid 2544:tid 1404] [client ::1:61685]     django.setup(set_prefix=False)\r
+[Wed Mar 17 08:56:15.853910 2021] [wsgi:error] [pid 2544:tid 1404] [client ::1:61685]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\__init__.py", line 19, in setup\r
+[Wed Mar 17 08:56:15.853910 2021] [wsgi:error] [pid 2544:tid 1404] [client ::1:61685]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)\r
+[Wed Mar 17 08:56:15.853910 2021] [wsgi:error] [pid 2544:tid 1404] [client ::1:61685]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 82, in __getattr__\r
+[Wed Mar 17 08:56:15.853910 2021] [wsgi:error] [pid 2544:tid 1404] [client ::1:61685]     self._setup(name)\r
+[Wed Mar 17 08:56:15.853910 2021] [wsgi:error] [pid 2544:tid 1404] [client ::1:61685]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 69, in _setup\r
+[Wed Mar 17 08:56:15.853910 2021] [wsgi:error] [pid 2544:tid 1404] [client ::1:61685]     self._wrapped = Settings(settings_module)\r
+[Wed Mar 17 08:56:15.853910 2021] [wsgi:error] [pid 2544:tid 1404] [client ::1:61685]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 170, in __init__\r
+[Wed Mar 17 08:56:15.853910 2021] [wsgi:error] [pid 2544:tid 1404] [client ::1:61685]     mod = importlib.import_module(self.SETTINGS_MODULE)\r
+[Wed Mar 17 08:56:15.853910 2021] [wsgi:error] [pid 2544:tid 1404] [client ::1:61685]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\__init__.py", line 127, in import_module\r
+[Wed Mar 17 08:56:15.853910 2021] [wsgi:error] [pid 2544:tid 1404] [client ::1:61685]     return _bootstrap._gcd_import(name[level:], package, level)\r
+[Wed Mar 17 08:56:15.853910 2021] [wsgi:error] [pid 2544:tid 1404] [client ::1:61685]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import\r
+[Wed Mar 17 08:56:15.853910 2021] [wsgi:error] [pid 2544:tid 1404] [client ::1:61685]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load\r
+[Wed Mar 17 08:56:15.853910 2021] [wsgi:error] [pid 2544:tid 1404] [client ::1:61685]   File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked\r
+[Wed Mar 17 08:56:15.853910 2021] [wsgi:error] [pid 2544:tid 1404] [client ::1:61685]   File "<frozen importlib._bootstrap>", line 680, in _load_unlocked\r
+[Wed Mar 17 08:56:15.853910 2021] [wsgi:error] [pid 2544:tid 1404] [client ::1:61685]   File "<frozen importlib._bootstrap_external>", line 790, in exec_module\r
+[Wed Mar 17 08:56:15.853910 2021] [wsgi:error] [pid 2544:tid 1404] [client ::1:61685]   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed\r
+[Wed Mar 17 08:56:15.853910 2021] [wsgi:error] [pid 2544:tid 1404] [client ::1:61685]   File "C:\\Users\\angel\\Proyectos\\webIqlim\\webIqlim\\settings.py", line 148, in <module>\r
+[Wed Mar 17 08:56:15.853910 2021] [wsgi:error] [pid 2544:tid 1404] [client ::1:61685]     EMAIL_PORT=int(os.getenv('PTO_MAILHOST'))\r
+[Wed Mar 17 08:56:15.853910 2021] [wsgi:error] [pid 2544:tid 1404] [client ::1:61685] TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'\r
+[Wed Mar 17 08:56:15.937869 2021] [wsgi:error] [pid 2544:tid 1408] [client ::1:61684] mod_wsgi (pid=2544): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'., referer: http://localhost/
+[Wed Mar 17 08:56:15.937869 2021] [wsgi:error] [pid 2544:tid 1408] [client ::1:61684] mod_wsgi (pid=2544): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'., referer: http://localhost/
+[Wed Mar 17 08:56:15.938872 2021] [wsgi:error] [pid 2544:tid 1408] [client ::1:61684] Traceback (most recent call last):\r, referer: http://localhost/
+[Wed Mar 17 08:56:15.938872 2021] [wsgi:error] [pid 2544:tid 1408] [client ::1:61684]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 24, in <module>\r, referer: http://localhost/
+[Wed Mar 17 08:56:15.938872 2021] [wsgi:error] [pid 2544:tid 1408] [client ::1:61684]     application = get_wsgi_application()\r, referer: http://localhost/
+[Wed Mar 17 08:56:15.938872 2021] [wsgi:error] [pid 2544:tid 1408] [client ::1:61684]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r, referer: http://localhost/
+[Wed Mar 17 08:56:15.938872 2021] [wsgi:error] [pid 2544:tid 1408] [client ::1:61684]     django.setup(set_prefix=False)\r, referer: http://localhost/
+[Wed Mar 17 08:56:15.938872 2021] [wsgi:error] [pid 2544:tid 1408] [client ::1:61684]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\__init__.py", line 19, in setup\r, referer: http://localhost/
+[Wed Mar 17 08:56:15.938872 2021] [wsgi:error] [pid 2544:tid 1408] [client ::1:61684]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)\r, referer: http://localhost/
+[Wed Mar 17 08:56:15.938872 2021] [wsgi:error] [pid 2544:tid 1408] [client ::1:61684]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 82, in __getattr__\r, referer: http://localhost/
+[Wed Mar 17 08:56:15.938872 2021] [wsgi:error] [pid 2544:tid 1408] [client ::1:61684]     self._setup(name)\r, referer: http://localhost/
+[Wed Mar 17 08:56:15.938872 2021] [wsgi:error] [pid 2544:tid 1408] [client ::1:61684]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 69, in _setup\r, referer: http://localhost/
+[Wed Mar 17 08:56:15.938872 2021] [wsgi:error] [pid 2544:tid 1408] [client ::1:61684]     self._wrapped = Settings(settings_module)\r, referer: http://localhost/
+[Wed Mar 17 08:56:15.938872 2021] [wsgi:error] [pid 2544:tid 1408] [client ::1:61684]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 170, in __init__\r, referer: http://localhost/
+[Wed Mar 17 08:56:15.938872 2021] [wsgi:error] [pid 2544:tid 1408] [client ::1:61684]     mod = importlib.import_module(self.SETTINGS_MODULE)\r, referer: http://localhost/
+[Wed Mar 17 08:56:15.938872 2021] [wsgi:error] [pid 2544:tid 1408] [client ::1:61684]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\__init__.py", line 127, in import_module\r, referer: http://localhost/
+[Wed Mar 17 08:56:15.938872 2021] [wsgi:error] [pid 2544:tid 1408] [client ::1:61684]     return _bootstrap._gcd_import(name[level:], package, level)\r, referer: http://localhost/
+[Wed Mar 17 08:56:15.938872 2021] [wsgi:error] [pid 2544:tid 1408] [client ::1:61684]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import\r, referer: http://localhost/
+[Wed Mar 17 08:56:15.938872 2021] [wsgi:error] [pid 2544:tid 1408] [client ::1:61684]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load\r, referer: http://localhost/
+[Wed Mar 17 08:56:15.938872 2021] [wsgi:error] [pid 2544:tid 1408] [client ::1:61684]   File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked\r, referer: http://localhost/
+[Wed Mar 17 08:56:15.938872 2021] [wsgi:error] [pid 2544:tid 1408] [client ::1:61684]   File "<frozen importlib._bootstrap>", line 680, in _load_unlocked\r, referer: http://localhost/
+[Wed Mar 17 08:56:15.938872 2021] [wsgi:error] [pid 2544:tid 1408] [client ::1:61684]   File "<frozen importlib._bootstrap_external>", line 790, in exec_module\r, referer: http://localhost/
+[Wed Mar 17 08:56:15.938872 2021] [wsgi:error] [pid 2544:tid 1408] [client ::1:61684]   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed\r, referer: http://localhost/
+[Wed Mar 17 08:56:15.938872 2021] [wsgi:error] [pid 2544:tid 1408] [client ::1:61684]   File "C:\\Users\\angel\\Proyectos\\webIqlim\\webIqlim\\settings.py", line 148, in <module>\r, referer: http://localhost/
+[Wed Mar 17 08:56:15.938872 2021] [wsgi:error] [pid 2544:tid 1408] [client ::1:61684]     EMAIL_PORT=int(os.getenv('PTO_MAILHOST'))\r, referer: http://localhost/
+[Wed Mar 17 08:56:15.938872 2021] [wsgi:error] [pid 2544:tid 1408] [client ::1:61684] TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'\r, referer: http://localhost/
+[Wed Mar 17 09:38:03.522352 2021] [wsgi:error] [pid 8880:tid 1376] [client ::1:61929] mod_wsgi (pid=8880): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Wed Mar 17 09:38:03.522352 2021] [wsgi:error] [pid 8880:tid 1376] [client ::1:61929] mod_wsgi (pid=8880): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Wed Mar 17 09:38:03.537978 2021] [wsgi:error] [pid 8880:tid 1376] [client ::1:61929] Traceback (most recent call last):\r
+[Wed Mar 17 09:38:03.537978 2021] [wsgi:error] [pid 8880:tid 1376] [client ::1:61929]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 24, in <module>\r
+[Wed Mar 17 09:38:03.537978 2021] [wsgi:error] [pid 8880:tid 1376] [client ::1:61929]     application = get_wsgi_application()\r
+[Wed Mar 17 09:38:03.537978 2021] [wsgi:error] [pid 8880:tid 1376] [client ::1:61929]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r
+[Wed Mar 17 09:38:03.537978 2021] [wsgi:error] [pid 8880:tid 1376] [client ::1:61929]     django.setup(set_prefix=False)\r
+[Wed Mar 17 09:38:03.537978 2021] [wsgi:error] [pid 8880:tid 1376] [client ::1:61929]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\__init__.py", line 19, in setup\r
+[Wed Mar 17 09:38:03.537978 2021] [wsgi:error] [pid 8880:tid 1376] [client ::1:61929]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)\r
+[Wed Mar 17 09:38:03.537978 2021] [wsgi:error] [pid 8880:tid 1376] [client ::1:61929]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 82, in __getattr__\r
+[Wed Mar 17 09:38:03.537978 2021] [wsgi:error] [pid 8880:tid 1376] [client ::1:61929]     self._setup(name)\r
+[Wed Mar 17 09:38:03.537978 2021] [wsgi:error] [pid 8880:tid 1376] [client ::1:61929]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 69, in _setup\r
+[Wed Mar 17 09:38:03.537978 2021] [wsgi:error] [pid 8880:tid 1376] [client ::1:61929]     self._wrapped = Settings(settings_module)\r
+[Wed Mar 17 09:38:03.537978 2021] [wsgi:error] [pid 8880:tid 1376] [client ::1:61929]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 170, in __init__\r
+[Wed Mar 17 09:38:03.537978 2021] [wsgi:error] [pid 8880:tid 1376] [client ::1:61929]     mod = importlib.import_module(self.SETTINGS_MODULE)\r
+[Wed Mar 17 09:38:03.537978 2021] [wsgi:error] [pid 8880:tid 1376] [client ::1:61929]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\__init__.py", line 127, in import_module\r
+[Wed Mar 17 09:38:03.537978 2021] [wsgi:error] [pid 8880:tid 1376] [client ::1:61929]     return _bootstrap._gcd_import(name[level:], package, level)\r
+[Wed Mar 17 09:38:03.537978 2021] [wsgi:error] [pid 8880:tid 1376] [client ::1:61929]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import\r
+[Wed Mar 17 09:38:03.537978 2021] [wsgi:error] [pid 8880:tid 1376] [client ::1:61929]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load\r
+[Wed Mar 17 09:38:03.537978 2021] [wsgi:error] [pid 8880:tid 1376] [client ::1:61929]   File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked\r
+[Wed Mar 17 09:38:03.537978 2021] [wsgi:error] [pid 8880:tid 1376] [client ::1:61929]   File "<frozen importlib._bootstrap>", line 680, in _load_unlocked\r
+[Wed Mar 17 09:38:03.537978 2021] [wsgi:error] [pid 8880:tid 1376] [client ::1:61929]   File "<frozen importlib._bootstrap_external>", line 790, in exec_module\r
+[Wed Mar 17 09:38:03.537978 2021] [wsgi:error] [pid 8880:tid 1376] [client ::1:61929]   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed\r
+[Wed Mar 17 09:38:03.537978 2021] [wsgi:error] [pid 8880:tid 1376] [client ::1:61929]   File "C:\\users\\angel\\proyectos\\webiqlim\\webIqlim\\settings.py", line 148, in <module>\r
+[Wed Mar 17 09:38:03.537978 2021] [wsgi:error] [pid 8880:tid 1376] [client ::1:61929]     EMAIL_PORT=int(os.getenv('PTO_MAILHOST'))\r
+[Wed Mar 17 09:38:03.537978 2021] [wsgi:error] [pid 8880:tid 1376] [client ::1:61929] TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'\r
+[Wed Mar 17 09:38:04.188080 2021] [wsgi:error] [pid 8880:tid 1372] [client ::1:61930] mod_wsgi (pid=8880): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'., referer: http://localhost/
+[Wed Mar 17 09:38:04.188080 2021] [wsgi:error] [pid 8880:tid 1372] [client ::1:61930] mod_wsgi (pid=8880): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'., referer: http://localhost/
+[Wed Mar 17 09:38:04.189078 2021] [wsgi:error] [pid 8880:tid 1372] [client ::1:61930] Traceback (most recent call last):\r, referer: http://localhost/
+[Wed Mar 17 09:38:04.189078 2021] [wsgi:error] [pid 8880:tid 1372] [client ::1:61930]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 24, in <module>\r, referer: http://localhost/
+[Wed Mar 17 09:38:04.189078 2021] [wsgi:error] [pid 8880:tid 1372] [client ::1:61930]     application = get_wsgi_application()\r, referer: http://localhost/
+[Wed Mar 17 09:38:04.189078 2021] [wsgi:error] [pid 8880:tid 1372] [client ::1:61930]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r, referer: http://localhost/
+[Wed Mar 17 09:38:04.189078 2021] [wsgi:error] [pid 8880:tid 1372] [client ::1:61930]     django.setup(set_prefix=False)\r, referer: http://localhost/
+[Wed Mar 17 09:38:04.189078 2021] [wsgi:error] [pid 8880:tid 1372] [client ::1:61930]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\__init__.py", line 19, in setup\r, referer: http://localhost/
+[Wed Mar 17 09:38:04.189078 2021] [wsgi:error] [pid 8880:tid 1372] [client ::1:61930]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)\r, referer: http://localhost/
+[Wed Mar 17 09:38:04.189078 2021] [wsgi:error] [pid 8880:tid 1372] [client ::1:61930]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 82, in __getattr__\r, referer: http://localhost/
+[Wed Mar 17 09:38:04.189078 2021] [wsgi:error] [pid 8880:tid 1372] [client ::1:61930]     self._setup(name)\r, referer: http://localhost/
+[Wed Mar 17 09:38:04.189078 2021] [wsgi:error] [pid 8880:tid 1372] [client ::1:61930]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 69, in _setup\r, referer: http://localhost/
+[Wed Mar 17 09:38:04.189078 2021] [wsgi:error] [pid 8880:tid 1372] [client ::1:61930]     self._wrapped = Settings(settings_module)\r, referer: http://localhost/
+[Wed Mar 17 09:38:04.189078 2021] [wsgi:error] [pid 8880:tid 1372] [client ::1:61930]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 170, in __init__\r, referer: http://localhost/
+[Wed Mar 17 09:38:04.189078 2021] [wsgi:error] [pid 8880:tid 1372] [client ::1:61930]     mod = importlib.import_module(self.SETTINGS_MODULE)\r, referer: http://localhost/
+[Wed Mar 17 09:38:04.189078 2021] [wsgi:error] [pid 8880:tid 1372] [client ::1:61930]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\__init__.py", line 127, in import_module\r, referer: http://localhost/
+[Wed Mar 17 09:38:04.189078 2021] [wsgi:error] [pid 8880:tid 1372] [client ::1:61930]     return _bootstrap._gcd_import(name[level:], package, level)\r, referer: http://localhost/
+[Wed Mar 17 09:38:04.189078 2021] [wsgi:error] [pid 8880:tid 1372] [client ::1:61930]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import\r, referer: http://localhost/
+[Wed Mar 17 09:38:04.189078 2021] [wsgi:error] [pid 8880:tid 1372] [client ::1:61930]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load\r, referer: http://localhost/
+[Wed Mar 17 09:38:04.189078 2021] [wsgi:error] [pid 8880:tid 1372] [client ::1:61930]   File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked\r, referer: http://localhost/
+[Wed Mar 17 09:38:04.189078 2021] [wsgi:error] [pid 8880:tid 1372] [client ::1:61930]   File "<frozen importlib._bootstrap>", line 680, in _load_unlocked\r, referer: http://localhost/
+[Wed Mar 17 09:38:04.189078 2021] [wsgi:error] [pid 8880:tid 1372] [client ::1:61930]   File "<frozen importlib._bootstrap_external>", line 790, in exec_module\r, referer: http://localhost/
+[Wed Mar 17 09:38:04.189078 2021] [wsgi:error] [pid 8880:tid 1372] [client ::1:61930]   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed\r, referer: http://localhost/
+[Wed Mar 17 09:38:04.189078 2021] [wsgi:error] [pid 8880:tid 1372] [client ::1:61930]   File "C:\\users\\angel\\proyectos\\webiqlim\\webIqlim\\settings.py", line 148, in <module>\r, referer: http://localhost/
+[Wed Mar 17 09:38:04.189078 2021] [wsgi:error] [pid 8880:tid 1372] [client ::1:61930]     EMAIL_PORT=int(os.getenv('PTO_MAILHOST'))\r, referer: http://localhost/
+[Wed Mar 17 09:38:04.189078 2021] [wsgi:error] [pid 8880:tid 1372] [client ::1:61930] TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'\r, referer: http://localhost/
+[Wed Mar 17 11:08:01.552953 2021] [wsgi:error] [pid 16816:tid 1372] [client 127.0.0.1:62238] mod_wsgi (pid=16816): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Wed Mar 17 11:08:01.552953 2021] [wsgi:error] [pid 16816:tid 1372] [client 127.0.0.1:62238] mod_wsgi (pid=16816): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Wed Mar 17 11:08:01.554962 2021] [wsgi:error] [pid 16816:tid 1372] [client 127.0.0.1:62238] Traceback (most recent call last):\r
+[Wed Mar 17 11:08:01.554962 2021] [wsgi:error] [pid 16816:tid 1372] [client 127.0.0.1:62238]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 24, in <module>\r
+[Wed Mar 17 11:08:01.555958 2021] [wsgi:error] [pid 16816:tid 1372] [client 127.0.0.1:62238]     application = get_wsgi_application()\r
+[Wed Mar 17 11:08:01.555958 2021] [wsgi:error] [pid 16816:tid 1372] [client 127.0.0.1:62238]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r
+[Wed Mar 17 11:08:01.555958 2021] [wsgi:error] [pid 16816:tid 1372] [client 127.0.0.1:62238]     django.setup(set_prefix=False)\r
+[Wed Mar 17 11:08:01.555958 2021] [wsgi:error] [pid 16816:tid 1372] [client 127.0.0.1:62238]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\__init__.py", line 19, in setup\r
+[Wed Mar 17 11:08:01.555958 2021] [wsgi:error] [pid 16816:tid 1372] [client 127.0.0.1:62238]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)\r
+[Wed Mar 17 11:08:01.555958 2021] [wsgi:error] [pid 16816:tid 1372] [client 127.0.0.1:62238]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 82, in __getattr__\r
+[Wed Mar 17 11:08:01.555958 2021] [wsgi:error] [pid 16816:tid 1372] [client 127.0.0.1:62238]     self._setup(name)\r
+[Wed Mar 17 11:08:01.555958 2021] [wsgi:error] [pid 16816:tid 1372] [client 127.0.0.1:62238]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 69, in _setup\r
+[Wed Mar 17 11:08:01.555958 2021] [wsgi:error] [pid 16816:tid 1372] [client 127.0.0.1:62238]     self._wrapped = Settings(settings_module)\r
+[Wed Mar 17 11:08:01.555958 2021] [wsgi:error] [pid 16816:tid 1372] [client 127.0.0.1:62238]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 170, in __init__\r
+[Wed Mar 17 11:08:01.555958 2021] [wsgi:error] [pid 16816:tid 1372] [client 127.0.0.1:62238]     mod = importlib.import_module(self.SETTINGS_MODULE)\r
+[Wed Mar 17 11:08:01.555958 2021] [wsgi:error] [pid 16816:tid 1372] [client 127.0.0.1:62238]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\__init__.py", line 127, in import_module\r
+[Wed Mar 17 11:08:01.555958 2021] [wsgi:error] [pid 16816:tid 1372] [client 127.0.0.1:62238]     return _bootstrap._gcd_import(name[level:], package, level)\r
+[Wed Mar 17 11:08:01.555958 2021] [wsgi:error] [pid 16816:tid 1372] [client 127.0.0.1:62238]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import\r
+[Wed Mar 17 11:08:01.555958 2021] [wsgi:error] [pid 16816:tid 1372] [client 127.0.0.1:62238]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load\r
+[Wed Mar 17 11:08:01.555958 2021] [wsgi:error] [pid 16816:tid 1372] [client 127.0.0.1:62238]   File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked\r
+[Wed Mar 17 11:08:01.555958 2021] [wsgi:error] [pid 16816:tid 1372] [client 127.0.0.1:62238]   File "<frozen importlib._bootstrap>", line 680, in _load_unlocked\r
+[Wed Mar 17 11:08:01.555958 2021] [wsgi:error] [pid 16816:tid 1372] [client 127.0.0.1:62238]   File "<frozen importlib._bootstrap_external>", line 790, in exec_module\r
+[Wed Mar 17 11:08:01.555958 2021] [wsgi:error] [pid 16816:tid 1372] [client 127.0.0.1:62238]   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed\r
+[Wed Mar 17 11:08:01.555958 2021] [wsgi:error] [pid 16816:tid 1372] [client 127.0.0.1:62238]   File "C:\\users\\angel\\proyectos\\webiqlim\\webIqlim\\settings.py", line 148, in <module>\r
+[Wed Mar 17 11:08:01.555958 2021] [wsgi:error] [pid 16816:tid 1372] [client 127.0.0.1:62238]     EMAIL_PORT=int(os.getenv('PTO_MAILHOST'))\r
+[Wed Mar 17 11:08:01.555958 2021] [wsgi:error] [pid 16816:tid 1372] [client 127.0.0.1:62238] TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'\r
+[Wed Mar 17 11:08:01.662922 2021] [wsgi:error] [pid 16816:tid 1364] [client 127.0.0.1:62239] mod_wsgi (pid=16816): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'., referer: http://127.0.0.2/
+[Wed Mar 17 11:08:01.662922 2021] [wsgi:error] [pid 16816:tid 1364] [client 127.0.0.1:62239] mod_wsgi (pid=16816): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'., referer: http://127.0.0.2/
+[Wed Mar 17 11:08:01.662922 2021] [wsgi:error] [pid 16816:tid 1364] [client 127.0.0.1:62239] Traceback (most recent call last):\r, referer: http://127.0.0.2/
+[Wed Mar 17 11:08:01.662922 2021] [wsgi:error] [pid 16816:tid 1364] [client 127.0.0.1:62239]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 24, in <module>\r, referer: http://127.0.0.2/
+[Wed Mar 17 11:08:01.662922 2021] [wsgi:error] [pid 16816:tid 1364] [client 127.0.0.1:62239]     application = get_wsgi_application()\r, referer: http://127.0.0.2/
+[Wed Mar 17 11:08:01.662922 2021] [wsgi:error] [pid 16816:tid 1364] [client 127.0.0.1:62239]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r, referer: http://127.0.0.2/
+[Wed Mar 17 11:08:01.662922 2021] [wsgi:error] [pid 16816:tid 1364] [client 127.0.0.1:62239]     django.setup(set_prefix=False)\r, referer: http://127.0.0.2/
+[Wed Mar 17 11:08:01.662922 2021] [wsgi:error] [pid 16816:tid 1364] [client 127.0.0.1:62239]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\__init__.py", line 19, in setup\r, referer: http://127.0.0.2/
+[Wed Mar 17 11:08:01.662922 2021] [wsgi:error] [pid 16816:tid 1364] [client 127.0.0.1:62239]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)\r, referer: http://127.0.0.2/
+[Wed Mar 17 11:08:01.662922 2021] [wsgi:error] [pid 16816:tid 1364] [client 127.0.0.1:62239]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 82, in __getattr__\r, referer: http://127.0.0.2/
+[Wed Mar 17 11:08:01.662922 2021] [wsgi:error] [pid 16816:tid 1364] [client 127.0.0.1:62239]     self._setup(name)\r, referer: http://127.0.0.2/
+[Wed Mar 17 11:08:01.662922 2021] [wsgi:error] [pid 16816:tid 1364] [client 127.0.0.1:62239]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 69, in _setup\r, referer: http://127.0.0.2/
+[Wed Mar 17 11:08:01.662922 2021] [wsgi:error] [pid 16816:tid 1364] [client 127.0.0.1:62239]     self._wrapped = Settings(settings_module)\r, referer: http://127.0.0.2/
+[Wed Mar 17 11:08:01.662922 2021] [wsgi:error] [pid 16816:tid 1364] [client 127.0.0.1:62239]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 170, in __init__\r, referer: http://127.0.0.2/
+[Wed Mar 17 11:08:01.662922 2021] [wsgi:error] [pid 16816:tid 1364] [client 127.0.0.1:62239]     mod = importlib.import_module(self.SETTINGS_MODULE)\r, referer: http://127.0.0.2/
+[Wed Mar 17 11:08:01.662922 2021] [wsgi:error] [pid 16816:tid 1364] [client 127.0.0.1:62239]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\__init__.py", line 127, in import_module\r, referer: http://127.0.0.2/
+[Wed Mar 17 11:08:01.662922 2021] [wsgi:error] [pid 16816:tid 1364] [client 127.0.0.1:62239]     return _bootstrap._gcd_import(name[level:], package, level)\r, referer: http://127.0.0.2/
+[Wed Mar 17 11:08:01.662922 2021] [wsgi:error] [pid 16816:tid 1364] [client 127.0.0.1:62239]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import\r, referer: http://127.0.0.2/
+[Wed Mar 17 11:08:01.662922 2021] [wsgi:error] [pid 16816:tid 1364] [client 127.0.0.1:62239]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load\r, referer: http://127.0.0.2/
+[Wed Mar 17 11:08:01.662922 2021] [wsgi:error] [pid 16816:tid 1364] [client 127.0.0.1:62239]   File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked\r, referer: http://127.0.0.2/
+[Wed Mar 17 11:08:01.662922 2021] [wsgi:error] [pid 16816:tid 1364] [client 127.0.0.1:62239]   File "<frozen importlib._bootstrap>", line 680, in _load_unlocked\r, referer: http://127.0.0.2/
+[Wed Mar 17 11:08:01.663917 2021] [wsgi:error] [pid 16816:tid 1364] [client 127.0.0.1:62239]   File "<frozen importlib._bootstrap_external>", line 790, in exec_module\r, referer: http://127.0.0.2/
+[Wed Mar 17 11:08:01.663917 2021] [wsgi:error] [pid 16816:tid 1364] [client 127.0.0.1:62239]   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed\r, referer: http://127.0.0.2/
+[Wed Mar 17 11:08:01.663917 2021] [wsgi:error] [pid 16816:tid 1364] [client 127.0.0.1:62239]   File "C:\\users\\angel\\proyectos\\webiqlim\\webIqlim\\settings.py", line 148, in <module>\r, referer: http://127.0.0.2/
+[Wed Mar 17 11:08:01.663917 2021] [wsgi:error] [pid 16816:tid 1364] [client 127.0.0.1:62239]     EMAIL_PORT=int(os.getenv('PTO_MAILHOST'))\r, referer: http://127.0.0.2/
+[Wed Mar 17 11:08:01.663917 2021] [wsgi:error] [pid 16816:tid 1364] [client 127.0.0.1:62239] TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'\r, referer: http://127.0.0.2/
+[Thu Mar 18 08:01:56.817889 2021] [wsgi:error] [pid 7472:tid 1344] [client 127.0.0.1:50910] mod_wsgi (pid=7472): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Thu Mar 18 08:01:56.821173 2021] [wsgi:error] [pid 7472:tid 1344] [client 127.0.0.1:50910] mod_wsgi (pid=7472): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Thu Mar 18 08:01:56.873259 2021] [wsgi:error] [pid 7472:tid 1344] [client 127.0.0.1:50910] Traceback (most recent call last):\r
+[Thu Mar 18 08:01:56.873259 2021] [wsgi:error] [pid 7472:tid 1344] [client 127.0.0.1:50910]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 24, in <module>\r
+[Thu Mar 18 08:01:56.873259 2021] [wsgi:error] [pid 7472:tid 1344] [client 127.0.0.1:50910]     application = get_wsgi_application()\r
+[Thu Mar 18 08:01:56.873259 2021] [wsgi:error] [pid 7472:tid 1344] [client 127.0.0.1:50910]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r
+[Thu Mar 18 08:01:56.873259 2021] [wsgi:error] [pid 7472:tid 1344] [client 127.0.0.1:50910]     django.setup(set_prefix=False)\r
+[Thu Mar 18 08:01:56.873259 2021] [wsgi:error] [pid 7472:tid 1344] [client 127.0.0.1:50910]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\__init__.py", line 19, in setup\r
+[Thu Mar 18 08:01:56.873259 2021] [wsgi:error] [pid 7472:tid 1344] [client 127.0.0.1:50910]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)\r
+[Thu Mar 18 08:01:56.873259 2021] [wsgi:error] [pid 7472:tid 1344] [client 127.0.0.1:50910]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 82, in __getattr__\r
+[Thu Mar 18 08:01:56.873259 2021] [wsgi:error] [pid 7472:tid 1344] [client 127.0.0.1:50910]     self._setup(name)\r
+[Thu Mar 18 08:01:56.873259 2021] [wsgi:error] [pid 7472:tid 1344] [client 127.0.0.1:50910]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 69, in _setup\r
+[Thu Mar 18 08:01:56.873259 2021] [wsgi:error] [pid 7472:tid 1344] [client 127.0.0.1:50910]     self._wrapped = Settings(settings_module)\r
+[Thu Mar 18 08:01:56.873259 2021] [wsgi:error] [pid 7472:tid 1344] [client 127.0.0.1:50910]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 170, in __init__\r
+[Thu Mar 18 08:01:56.873259 2021] [wsgi:error] [pid 7472:tid 1344] [client 127.0.0.1:50910]     mod = importlib.import_module(self.SETTINGS_MODULE)\r
+[Thu Mar 18 08:01:56.873259 2021] [wsgi:error] [pid 7472:tid 1344] [client 127.0.0.1:50910]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\__init__.py", line 127, in import_module\r
+[Thu Mar 18 08:01:56.873259 2021] [wsgi:error] [pid 7472:tid 1344] [client 127.0.0.1:50910]     return _bootstrap._gcd_import(name[level:], package, level)\r
+[Thu Mar 18 08:01:56.873259 2021] [wsgi:error] [pid 7472:tid 1344] [client 127.0.0.1:50910]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import\r
+[Thu Mar 18 08:01:56.874309 2021] [wsgi:error] [pid 7472:tid 1344] [client 127.0.0.1:50910]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load\r
+[Thu Mar 18 08:01:56.874309 2021] [wsgi:error] [pid 7472:tid 1344] [client 127.0.0.1:50910]   File "<frozen importlib._bootstrap>", line 972, in _find_and_load_unlocked\r
+[Thu Mar 18 08:01:56.874309 2021] [wsgi:error] [pid 7472:tid 1344] [client 127.0.0.1:50910]   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed\r
+[Thu Mar 18 08:01:56.874309 2021] [wsgi:error] [pid 7472:tid 1344] [client 127.0.0.1:50910]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import\r
+[Thu Mar 18 08:01:56.874309 2021] [wsgi:error] [pid 7472:tid 1344] [client 127.0.0.1:50910]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load\r
+[Thu Mar 18 08:01:56.874309 2021] [wsgi:error] [pid 7472:tid 1344] [client 127.0.0.1:50910]   File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked\r
+[Thu Mar 18 08:01:56.874309 2021] [wsgi:error] [pid 7472:tid 1344] [client 127.0.0.1:50910] ModuleNotFoundError: No module named 'main'\r
+[Thu Mar 18 08:01:57.008975 2021] [wsgi:error] [pid 7472:tid 1376] [client 127.0.0.1:50911] mod_wsgi (pid=7472): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'., referer: http://127.0.0.2/
+[Thu Mar 18 08:01:57.008975 2021] [wsgi:error] [pid 7472:tid 1376] [client 127.0.0.1:50911] mod_wsgi (pid=7472): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'., referer: http://127.0.0.2/
+[Thu Mar 18 08:01:57.010012 2021] [wsgi:error] [pid 7472:tid 1376] [client 127.0.0.1:50911] Traceback (most recent call last):\r, referer: http://127.0.0.2/
+[Thu Mar 18 08:01:57.010012 2021] [wsgi:error] [pid 7472:tid 1376] [client 127.0.0.1:50911]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 24, in <module>\r, referer: http://127.0.0.2/
+[Thu Mar 18 08:01:57.010012 2021] [wsgi:error] [pid 7472:tid 1376] [client 127.0.0.1:50911]     application = get_wsgi_application()\r, referer: http://127.0.0.2/
+[Thu Mar 18 08:01:57.010012 2021] [wsgi:error] [pid 7472:tid 1376] [client 127.0.0.1:50911]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r, referer: http://127.0.0.2/
+[Thu Mar 18 08:01:57.010012 2021] [wsgi:error] [pid 7472:tid 1376] [client 127.0.0.1:50911]     django.setup(set_prefix=False)\r, referer: http://127.0.0.2/
+[Thu Mar 18 08:01:57.010012 2021] [wsgi:error] [pid 7472:tid 1376] [client 127.0.0.1:50911]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\__init__.py", line 19, in setup\r, referer: http://127.0.0.2/
+[Thu Mar 18 08:01:57.010012 2021] [wsgi:error] [pid 7472:tid 1376] [client 127.0.0.1:50911]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)\r, referer: http://127.0.0.2/
+[Thu Mar 18 08:01:57.010012 2021] [wsgi:error] [pid 7472:tid 1376] [client 127.0.0.1:50911]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 82, in __getattr__\r, referer: http://127.0.0.2/
+[Thu Mar 18 08:01:57.010012 2021] [wsgi:error] [pid 7472:tid 1376] [client 127.0.0.1:50911]     self._setup(name)\r, referer: http://127.0.0.2/
+[Thu Mar 18 08:01:57.010012 2021] [wsgi:error] [pid 7472:tid 1376] [client 127.0.0.1:50911]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 69, in _setup\r, referer: http://127.0.0.2/
+[Thu Mar 18 08:01:57.010012 2021] [wsgi:error] [pid 7472:tid 1376] [client 127.0.0.1:50911]     self._wrapped = Settings(settings_module)\r, referer: http://127.0.0.2/
+[Thu Mar 18 08:01:57.010012 2021] [wsgi:error] [pid 7472:tid 1376] [client 127.0.0.1:50911]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 170, in __init__\r, referer: http://127.0.0.2/
+[Thu Mar 18 08:01:57.010012 2021] [wsgi:error] [pid 7472:tid 1376] [client 127.0.0.1:50911]     mod = importlib.import_module(self.SETTINGS_MODULE)\r, referer: http://127.0.0.2/
+[Thu Mar 18 08:01:57.010012 2021] [wsgi:error] [pid 7472:tid 1376] [client 127.0.0.1:50911]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\__init__.py", line 127, in import_module\r, referer: http://127.0.0.2/
+[Thu Mar 18 08:01:57.010012 2021] [wsgi:error] [pid 7472:tid 1376] [client 127.0.0.1:50911]     return _bootstrap._gcd_import(name[level:], package, level)\r, referer: http://127.0.0.2/
+[Thu Mar 18 08:01:57.010012 2021] [wsgi:error] [pid 7472:tid 1376] [client 127.0.0.1:50911]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import\r, referer: http://127.0.0.2/
+[Thu Mar 18 08:01:57.010012 2021] [wsgi:error] [pid 7472:tid 1376] [client 127.0.0.1:50911]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load\r, referer: http://127.0.0.2/
+[Thu Mar 18 08:01:57.010012 2021] [wsgi:error] [pid 7472:tid 1376] [client 127.0.0.1:50911]   File "<frozen importlib._bootstrap>", line 972, in _find_and_load_unlocked\r, referer: http://127.0.0.2/
+[Thu Mar 18 08:01:57.010012 2021] [wsgi:error] [pid 7472:tid 1376] [client 127.0.0.1:50911]   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed\r, referer: http://127.0.0.2/
+[Thu Mar 18 08:01:57.010012 2021] [wsgi:error] [pid 7472:tid 1376] [client 127.0.0.1:50911]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import\r, referer: http://127.0.0.2/
+[Thu Mar 18 08:01:57.010012 2021] [wsgi:error] [pid 7472:tid 1376] [client 127.0.0.1:50911]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load\r, referer: http://127.0.0.2/
+[Thu Mar 18 08:01:57.010012 2021] [wsgi:error] [pid 7472:tid 1376] [client 127.0.0.1:50911]   File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked\r, referer: http://127.0.0.2/
+[Thu Mar 18 08:01:57.010012 2021] [wsgi:error] [pid 7472:tid 1376] [client 127.0.0.1:50911] ModuleNotFoundError: No module named 'main'\r, referer: http://127.0.0.2/
+[Sat Mar 20 07:30:27.577422 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65149] mod_wsgi (pid=13120): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Sat Mar 20 07:30:27.578370 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65149] mod_wsgi (pid=13120): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Sat Mar 20 07:30:27.610445 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65149] Traceback (most recent call last):\r
+[Sat Mar 20 07:30:27.610445 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65149]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 24, in <module>\r
+[Sat Mar 20 07:30:27.610445 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65149]     application = get_wsgi_application()\r
+[Sat Mar 20 07:30:27.610445 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65149]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r
+[Sat Mar 20 07:30:27.610445 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65149]     django.setup(set_prefix=False)\r
+[Sat Mar 20 07:30:27.610445 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65149]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\__init__.py", line 19, in setup\r
+[Sat Mar 20 07:30:27.610445 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65149]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)\r
+[Sat Mar 20 07:30:27.610445 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65149]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 82, in __getattr__\r
+[Sat Mar 20 07:30:27.610445 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65149]     self._setup(name)\r
+[Sat Mar 20 07:30:27.610445 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65149]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 69, in _setup\r
+[Sat Mar 20 07:30:27.610445 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65149]     self._wrapped = Settings(settings_module)\r
+[Sat Mar 20 07:30:27.610445 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65149]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 170, in __init__\r
+[Sat Mar 20 07:30:27.610445 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65149]     mod = importlib.import_module(self.SETTINGS_MODULE)\r
+[Sat Mar 20 07:30:27.610445 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65149]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\__init__.py", line 127, in import_module\r
+[Sat Mar 20 07:30:27.610445 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65149]     return _bootstrap._gcd_import(name[level:], package, level)\r
+[Sat Mar 20 07:30:27.610445 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65149]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import\r
+[Sat Mar 20 07:30:27.610445 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65149]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load\r
+[Sat Mar 20 07:30:27.610445 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65149]   File "<frozen importlib._bootstrap>", line 972, in _find_and_load_unlocked\r
+[Sat Mar 20 07:30:27.610445 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65149]   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed\r
+[Sat Mar 20 07:30:27.610445 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65149]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import\r
+[Sat Mar 20 07:30:27.610445 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65149]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load\r
+[Sat Mar 20 07:30:27.610445 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65149]   File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked\r
+[Sat Mar 20 07:30:27.610445 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65149] ModuleNotFoundError: No module named 'main'\r
+[Sat Mar 20 07:30:27.722430 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65150] mod_wsgi (pid=13120): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'., referer: http://www.webiqlim.com/
+[Sat Mar 20 07:30:27.722430 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65150] mod_wsgi (pid=13120): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'., referer: http://www.webiqlim.com/
+[Sat Mar 20 07:30:27.723443 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65150] Traceback (most recent call last):\r, referer: http://www.webiqlim.com/
+[Sat Mar 20 07:30:27.723443 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65150]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 24, in <module>\r, referer: http://www.webiqlim.com/
+[Sat Mar 20 07:30:27.723443 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65150]     application = get_wsgi_application()\r, referer: http://www.webiqlim.com/
+[Sat Mar 20 07:30:27.723443 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65150]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r, referer: http://www.webiqlim.com/
+[Sat Mar 20 07:30:27.723443 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65150]     django.setup(set_prefix=False)\r, referer: http://www.webiqlim.com/
+[Sat Mar 20 07:30:27.723443 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65150]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\__init__.py", line 19, in setup\r, referer: http://www.webiqlim.com/
+[Sat Mar 20 07:30:27.723443 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65150]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)\r, referer: http://www.webiqlim.com/
+[Sat Mar 20 07:30:27.723443 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65150]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 82, in __getattr__\r, referer: http://www.webiqlim.com/
+[Sat Mar 20 07:30:27.723443 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65150]     self._setup(name)\r, referer: http://www.webiqlim.com/
+[Sat Mar 20 07:30:27.723443 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65150]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 69, in _setup\r, referer: http://www.webiqlim.com/
+[Sat Mar 20 07:30:27.723443 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65150]     self._wrapped = Settings(settings_module)\r, referer: http://www.webiqlim.com/
+[Sat Mar 20 07:30:27.723443 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65150]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 170, in __init__\r, referer: http://www.webiqlim.com/
+[Sat Mar 20 07:30:27.723443 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65150]     mod = importlib.import_module(self.SETTINGS_MODULE)\r, referer: http://www.webiqlim.com/
+[Sat Mar 20 07:30:27.723443 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65150]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\__init__.py", line 127, in import_module\r, referer: http://www.webiqlim.com/
+[Sat Mar 20 07:30:27.723443 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65150]     return _bootstrap._gcd_import(name[level:], package, level)\r, referer: http://www.webiqlim.com/
+[Sat Mar 20 07:30:27.723443 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65150]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import\r, referer: http://www.webiqlim.com/
+[Sat Mar 20 07:30:27.723443 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65150]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load\r, referer: http://www.webiqlim.com/
+[Sat Mar 20 07:30:27.723443 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65150]   File "<frozen importlib._bootstrap>", line 972, in _find_and_load_unlocked\r, referer: http://www.webiqlim.com/
+[Sat Mar 20 07:30:27.723443 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65150]   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed\r, referer: http://www.webiqlim.com/
+[Sat Mar 20 07:30:27.723443 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65150]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import\r, referer: http://www.webiqlim.com/
+[Sat Mar 20 07:30:27.723443 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65150]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load\r, referer: http://www.webiqlim.com/
+[Sat Mar 20 07:30:27.723443 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65150]   File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked\r, referer: http://www.webiqlim.com/
+[Sat Mar 20 07:30:27.723443 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65150] ModuleNotFoundError: No module named 'main'\r, referer: http://www.webiqlim.com/
+[Sat Mar 20 07:46:18.348189 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65213] mod_wsgi (pid=13120): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Sat Mar 20 07:46:18.348189 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65213] mod_wsgi (pid=13120): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Sat Mar 20 07:46:18.349187 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65213] Traceback (most recent call last):\r
+[Sat Mar 20 07:46:18.349187 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65213]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 24, in <module>\r
+[Sat Mar 20 07:46:18.349187 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65213]     application = get_wsgi_application()\r
+[Sat Mar 20 07:46:18.349187 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65213]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r
+[Sat Mar 20 07:46:18.349187 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65213]     django.setup(set_prefix=False)\r
+[Sat Mar 20 07:46:18.349187 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65213]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\__init__.py", line 19, in setup\r
+[Sat Mar 20 07:46:18.349187 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65213]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)\r
+[Sat Mar 20 07:46:18.349187 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65213]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 82, in __getattr__\r
+[Sat Mar 20 07:46:18.349187 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65213]     self._setup(name)\r
+[Sat Mar 20 07:46:18.349187 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65213]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 69, in _setup\r
+[Sat Mar 20 07:46:18.349187 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65213]     self._wrapped = Settings(settings_module)\r
+[Sat Mar 20 07:46:18.349187 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65213]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 170, in __init__\r
+[Sat Mar 20 07:46:18.349187 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65213]     mod = importlib.import_module(self.SETTINGS_MODULE)\r
+[Sat Mar 20 07:46:18.349187 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65213]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\__init__.py", line 127, in import_module\r
+[Sat Mar 20 07:46:18.349187 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65213]     return _bootstrap._gcd_import(name[level:], package, level)\r
+[Sat Mar 20 07:46:18.349187 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65213]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import\r
+[Sat Mar 20 07:46:18.349187 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65213]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load\r
+[Sat Mar 20 07:46:18.349187 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65213]   File "<frozen importlib._bootstrap>", line 972, in _find_and_load_unlocked\r
+[Sat Mar 20 07:46:18.349187 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65213]   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed\r
+[Sat Mar 20 07:46:18.349187 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65213]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import\r
+[Sat Mar 20 07:46:18.349187 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65213]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load\r
+[Sat Mar 20 07:46:18.349187 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65213]   File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked\r
+[Sat Mar 20 07:46:18.349187 2021] [wsgi:error] [pid 13120:tid 1428] [client 127.0.0.1:65213] ModuleNotFoundError: No module named 'webiqlim'\r
+[Sat Mar 20 07:46:18.401172 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65214] mod_wsgi (pid=13120): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'., referer: http://webiqlim.com/
+[Sat Mar 20 07:46:18.401172 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65214] mod_wsgi (pid=13120): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'., referer: http://webiqlim.com/
+[Sat Mar 20 07:46:18.402153 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65214] Traceback (most recent call last):\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:18.402153 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65214]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 24, in <module>\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:18.402153 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65214]     application = get_wsgi_application()\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:18.402153 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65214]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:18.402153 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65214]     django.setup(set_prefix=False)\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:18.402153 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65214]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\__init__.py", line 19, in setup\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:18.402153 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65214]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:18.402153 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65214]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 82, in __getattr__\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:18.402153 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65214]     self._setup(name)\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:18.402153 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65214]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 69, in _setup\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:18.402153 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65214]     self._wrapped = Settings(settings_module)\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:18.402153 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65214]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 170, in __init__\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:18.402153 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65214]     mod = importlib.import_module(self.SETTINGS_MODULE)\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:18.402153 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65214]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\__init__.py", line 127, in import_module\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:18.402153 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65214]     return _bootstrap._gcd_import(name[level:], package, level)\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:18.402153 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65214]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:18.402153 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65214]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:18.402153 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65214]   File "<frozen importlib._bootstrap>", line 972, in _find_and_load_unlocked\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:18.402153 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65214]   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:18.402153 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65214]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:18.402153 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65214]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:18.402153 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65214]   File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:18.402153 2021] [wsgi:error] [pid 13120:tid 1448] [client 127.0.0.1:65214] ModuleNotFoundError: No module named 'webiqlim'\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:48.851454 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65217] mod_wsgi (pid=1068): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Sat Mar 20 07:46:48.851454 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65217] mod_wsgi (pid=1068): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Sat Mar 20 07:46:48.853454 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65217] Traceback (most recent call last):\r
+[Sat Mar 20 07:46:48.853454 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65217]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 24, in <module>\r
+[Sat Mar 20 07:46:48.853454 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65217]     application = get_wsgi_application()\r
+[Sat Mar 20 07:46:48.853454 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65217]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r
+[Sat Mar 20 07:46:48.853454 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65217]     django.setup(set_prefix=False)\r
+[Sat Mar 20 07:46:48.853454 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65217]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\__init__.py", line 19, in setup\r
+[Sat Mar 20 07:46:48.853454 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65217]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)\r
+[Sat Mar 20 07:46:48.853454 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65217]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 82, in __getattr__\r
+[Sat Mar 20 07:46:48.853454 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65217]     self._setup(name)\r
+[Sat Mar 20 07:46:48.853454 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65217]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 69, in _setup\r
+[Sat Mar 20 07:46:48.853454 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65217]     self._wrapped = Settings(settings_module)\r
+[Sat Mar 20 07:46:48.853454 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65217]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 170, in __init__\r
+[Sat Mar 20 07:46:48.853454 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65217]     mod = importlib.import_module(self.SETTINGS_MODULE)\r
+[Sat Mar 20 07:46:48.853454 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65217]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\__init__.py", line 127, in import_module\r
+[Sat Mar 20 07:46:48.853454 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65217]     return _bootstrap._gcd_import(name[level:], package, level)\r
+[Sat Mar 20 07:46:48.853454 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65217]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import\r
+[Sat Mar 20 07:46:48.853454 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65217]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load\r
+[Sat Mar 20 07:46:48.853454 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65217]   File "<frozen importlib._bootstrap>", line 972, in _find_and_load_unlocked\r
+[Sat Mar 20 07:46:48.853454 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65217]   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed\r
+[Sat Mar 20 07:46:48.853454 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65217]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import\r
+[Sat Mar 20 07:46:48.853454 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65217]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load\r
+[Sat Mar 20 07:46:48.853454 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65217]   File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked\r
+[Sat Mar 20 07:46:48.853454 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65217] ModuleNotFoundError: No module named 'webiqlim'\r
+[Sat Mar 20 07:46:48.931411 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65218] mod_wsgi (pid=1068): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'., referer: http://webiqlim.com/
+[Sat Mar 20 07:46:48.931411 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65218] mod_wsgi (pid=1068): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'., referer: http://webiqlim.com/
+[Sat Mar 20 07:46:48.932410 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65218] Traceback (most recent call last):\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:48.932410 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65218]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 24, in <module>\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:48.932410 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65218]     application = get_wsgi_application()\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:48.932410 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65218]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:48.932410 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65218]     django.setup(set_prefix=False)\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:48.932410 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65218]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\__init__.py", line 19, in setup\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:48.932410 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65218]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:48.932410 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65218]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 82, in __getattr__\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:48.932410 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65218]     self._setup(name)\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:48.932410 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65218]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 69, in _setup\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:48.932410 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65218]     self._wrapped = Settings(settings_module)\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:48.932410 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65218]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 170, in __init__\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:48.932410 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65218]     mod = importlib.import_module(self.SETTINGS_MODULE)\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:48.932410 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65218]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\__init__.py", line 127, in import_module\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:48.932410 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65218]     return _bootstrap._gcd_import(name[level:], package, level)\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:48.932410 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65218]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:48.932410 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65218]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:48.932410 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65218]   File "<frozen importlib._bootstrap>", line 972, in _find_and_load_unlocked\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:48.932410 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65218]   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:48.932410 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65218]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:48.932410 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65218]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:48.932410 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65218]   File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:46:48.932410 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65218] ModuleNotFoundError: No module named 'webiqlim'\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:51:24.927779 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65244] mod_wsgi (pid=1068): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Sat Mar 20 07:51:24.927779 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65244] mod_wsgi (pid=1068): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Sat Mar 20 07:51:24.928778 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65244] Traceback (most recent call last):\r
+[Sat Mar 20 07:51:24.928778 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65244]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 24, in <module>\r
+[Sat Mar 20 07:51:24.928778 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65244]     application = get_wsgi_application()\r
+[Sat Mar 20 07:51:24.928778 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65244]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r
+[Sat Mar 20 07:51:24.928778 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65244]     django.setup(set_prefix=False)\r
+[Sat Mar 20 07:51:24.928778 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65244]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\__init__.py", line 19, in setup\r
+[Sat Mar 20 07:51:24.928778 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65244]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)\r
+[Sat Mar 20 07:51:24.928778 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65244]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 82, in __getattr__\r
+[Sat Mar 20 07:51:24.928778 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65244]     self._setup(name)\r
+[Sat Mar 20 07:51:24.928778 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65244]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 69, in _setup\r
+[Sat Mar 20 07:51:24.928778 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65244]     self._wrapped = Settings(settings_module)\r
+[Sat Mar 20 07:51:24.928778 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65244]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 170, in __init__\r
+[Sat Mar 20 07:51:24.928778 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65244]     mod = importlib.import_module(self.SETTINGS_MODULE)\r
+[Sat Mar 20 07:51:24.928778 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65244]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\__init__.py", line 127, in import_module\r
+[Sat Mar 20 07:51:24.928778 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65244]     return _bootstrap._gcd_import(name[level:], package, level)\r
+[Sat Mar 20 07:51:24.928778 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65244]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import\r
+[Sat Mar 20 07:51:24.928778 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65244]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load\r
+[Sat Mar 20 07:51:24.928778 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65244]   File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked\r
+[Sat Mar 20 07:51:24.928778 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65244]   File "<frozen importlib._bootstrap>", line 680, in _load_unlocked\r
+[Sat Mar 20 07:51:24.928778 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65244]   File "<frozen importlib._bootstrap_external>", line 790, in exec_module\r
+[Sat Mar 20 07:51:24.928778 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65244]   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed\r
+[Sat Mar 20 07:51:24.928778 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65244]   File "C:\\Users\\angel\\Proyectos\\webIqlim\\webIqlim\\settings.py", line 148, in <module>\r
+[Sat Mar 20 07:51:24.928778 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65244]     EMAIL_PORT=int(os.getenv('PTO_MAILHOST'))\r
+[Sat Mar 20 07:51:24.928778 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65244] TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'\r
+[Sat Mar 20 07:51:24.982702 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65245] mod_wsgi (pid=1068): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'., referer: http://webiqlim.com/
+[Sat Mar 20 07:51:24.982702 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65245] mod_wsgi (pid=1068): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'., referer: http://webiqlim.com/
+[Sat Mar 20 07:51:24.982702 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65245] Traceback (most recent call last):\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:51:24.982702 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65245]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 24, in <module>\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:51:24.982702 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65245]     application = get_wsgi_application()\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:51:24.982702 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65245]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:51:24.982702 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65245]     django.setup(set_prefix=False)\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:51:24.982702 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65245]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\__init__.py", line 19, in setup\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:51:24.982702 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65245]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:51:24.982702 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65245]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 82, in __getattr__\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:51:24.982702 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65245]     self._setup(name)\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:51:24.982702 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65245]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 69, in _setup\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:51:24.982702 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65245]     self._wrapped = Settings(settings_module)\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:51:24.982702 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65245]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 170, in __init__\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:51:24.982702 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65245]     mod = importlib.import_module(self.SETTINGS_MODULE)\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:51:24.982702 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65245]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\__init__.py", line 127, in import_module\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:51:24.982702 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65245]     return _bootstrap._gcd_import(name[level:], package, level)\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:51:24.982702 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65245]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:51:24.982702 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65245]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:51:24.982702 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65245]   File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:51:24.982702 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65245]   File "<frozen importlib._bootstrap>", line 680, in _load_unlocked\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:51:24.982702 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65245]   File "<frozen importlib._bootstrap_external>", line 790, in exec_module\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:51:24.982702 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65245]   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:51:24.983702 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65245]   File "C:\\Users\\angel\\Proyectos\\webIqlim\\webIqlim\\settings.py", line 148, in <module>\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:51:24.983702 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65245]     EMAIL_PORT=int(os.getenv('PTO_MAILHOST'))\r, referer: http://webiqlim.com/
+[Sat Mar 20 07:51:24.983702 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65245] TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:03:09.371854 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65320] mod_wsgi (pid=1068): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Sat Mar 20 08:03:09.371854 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65320] mod_wsgi (pid=1068): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Sat Mar 20 08:03:09.372854 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65320] Traceback (most recent call last):\r
+[Sat Mar 20 08:03:09.372854 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65320]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 24, in <module>\r
+[Sat Mar 20 08:03:09.372854 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65320]     application = get_wsgi_application()\r
+[Sat Mar 20 08:03:09.372854 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65320]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r
+[Sat Mar 20 08:03:09.372854 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65320]     django.setup(set_prefix=False)\r
+[Sat Mar 20 08:03:09.372854 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65320]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\__init__.py", line 19, in setup\r
+[Sat Mar 20 08:03:09.372854 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65320]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)\r
+[Sat Mar 20 08:03:09.372854 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65320]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 82, in __getattr__\r
+[Sat Mar 20 08:03:09.372854 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65320]     self._setup(name)\r
+[Sat Mar 20 08:03:09.372854 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65320]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 69, in _setup\r
+[Sat Mar 20 08:03:09.372854 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65320]     self._wrapped = Settings(settings_module)\r
+[Sat Mar 20 08:03:09.372854 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65320]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 170, in __init__\r
+[Sat Mar 20 08:03:09.372854 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65320]     mod = importlib.import_module(self.SETTINGS_MODULE)\r
+[Sat Mar 20 08:03:09.372854 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65320]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\__init__.py", line 127, in import_module\r
+[Sat Mar 20 08:03:09.372854 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65320]     return _bootstrap._gcd_import(name[level:], package, level)\r
+[Sat Mar 20 08:03:09.372854 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65320]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import\r
+[Sat Mar 20 08:03:09.372854 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65320]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load\r
+[Sat Mar 20 08:03:09.372854 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65320]   File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked\r
+[Sat Mar 20 08:03:09.372854 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65320]   File "<frozen importlib._bootstrap>", line 680, in _load_unlocked\r
+[Sat Mar 20 08:03:09.372854 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65320]   File "<frozen importlib._bootstrap_external>", line 790, in exec_module\r
+[Sat Mar 20 08:03:09.372854 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65320]   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed\r
+[Sat Mar 20 08:03:09.372854 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65320]   File "C:\\Users\\angel\\Proyectos\\webIqlim\\webIqlim\\settings.py", line 148, in <module>\r
+[Sat Mar 20 08:03:09.372854 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65320]     EMAIL_PORT=int(os.getenv('PTO_MAILHOST'))\r
+[Sat Mar 20 08:03:09.372854 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65320] TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'\r
+[Sat Mar 20 08:03:09.435854 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65321] mod_wsgi (pid=1068): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'., referer: http://webiqlim.com/
+[Sat Mar 20 08:03:09.435854 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65321] mod_wsgi (pid=1068): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'., referer: http://webiqlim.com/
+[Sat Mar 20 08:03:09.435854 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65321] Traceback (most recent call last):\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:03:09.435854 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65321]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 24, in <module>\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:03:09.435854 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65321]     application = get_wsgi_application()\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:03:09.435854 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65321]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:03:09.435854 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65321]     django.setup(set_prefix=False)\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:03:09.436853 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65321]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\__init__.py", line 19, in setup\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:03:09.436853 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65321]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:03:09.436853 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65321]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 82, in __getattr__\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:03:09.436853 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65321]     self._setup(name)\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:03:09.436853 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65321]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 69, in _setup\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:03:09.436853 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65321]     self._wrapped = Settings(settings_module)\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:03:09.436853 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65321]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 170, in __init__\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:03:09.436853 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65321]     mod = importlib.import_module(self.SETTINGS_MODULE)\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:03:09.436853 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65321]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\__init__.py", line 127, in import_module\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:03:09.436853 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65321]     return _bootstrap._gcd_import(name[level:], package, level)\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:03:09.436853 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65321]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:03:09.436853 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65321]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:03:09.436853 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65321]   File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:03:09.436853 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65321]   File "<frozen importlib._bootstrap>", line 680, in _load_unlocked\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:03:09.436853 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65321]   File "<frozen importlib._bootstrap_external>", line 790, in exec_module\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:03:09.436853 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65321]   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:03:09.436853 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65321]   File "C:\\Users\\angel\\Proyectos\\webIqlim\\webIqlim\\settings.py", line 148, in <module>\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:03:09.436853 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65321]     EMAIL_PORT=int(os.getenv('PTO_MAILHOST'))\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:03:09.436853 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65321] TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:10:50.410029 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65346] mod_wsgi (pid=1068): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Sat Mar 20 08:10:50.410029 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65346] mod_wsgi (pid=1068): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Sat Mar 20 08:10:50.410029 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65346] Traceback (most recent call last):\r
+[Sat Mar 20 08:10:50.410029 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65346]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 24, in <module>\r
+[Sat Mar 20 08:10:50.410029 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65346]     application = get_wsgi_application()\r
+[Sat Mar 20 08:10:50.410029 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65346]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r
+[Sat Mar 20 08:10:50.410029 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65346]     django.setup(set_prefix=False)\r
+[Sat Mar 20 08:10:50.410029 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65346]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\__init__.py", line 19, in setup\r
+[Sat Mar 20 08:10:50.410029 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65346]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)\r
+[Sat Mar 20 08:10:50.410029 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65346]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 82, in __getattr__\r
+[Sat Mar 20 08:10:50.410029 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65346]     self._setup(name)\r
+[Sat Mar 20 08:10:50.410029 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65346]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 69, in _setup\r
+[Sat Mar 20 08:10:50.410029 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65346]     self._wrapped = Settings(settings_module)\r
+[Sat Mar 20 08:10:50.410029 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65346]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 170, in __init__\r
+[Sat Mar 20 08:10:50.410029 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65346]     mod = importlib.import_module(self.SETTINGS_MODULE)\r
+[Sat Mar 20 08:10:50.410029 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65346]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\__init__.py", line 127, in import_module\r
+[Sat Mar 20 08:10:50.410029 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65346]     return _bootstrap._gcd_import(name[level:], package, level)\r
+[Sat Mar 20 08:10:50.410029 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65346]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import\r
+[Sat Mar 20 08:10:50.410029 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65346]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load\r
+[Sat Mar 20 08:10:50.411029 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65346]   File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked\r
+[Sat Mar 20 08:10:50.411029 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65346]   File "<frozen importlib._bootstrap>", line 680, in _load_unlocked\r
+[Sat Mar 20 08:10:50.411029 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65346]   File "<frozen importlib._bootstrap_external>", line 790, in exec_module\r
+[Sat Mar 20 08:10:50.411029 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65346]   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed\r
+[Sat Mar 20 08:10:50.411029 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65346]   File "C:\\Users\\angel\\Proyectos\\webIqlim\\webIqlim\\settings.py", line 148, in <module>\r
+[Sat Mar 20 08:10:50.411029 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65346]     EMAIL_PORT=int(os.getenv('PTO_MAILHOST'))\r
+[Sat Mar 20 08:10:50.411029 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65346] TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'\r
+[Sat Mar 20 08:10:50.461032 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65347] mod_wsgi (pid=1068): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'., referer: http://webiqlim.com/
+[Sat Mar 20 08:10:50.461032 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65347] mod_wsgi (pid=1068): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'., referer: http://webiqlim.com/
+[Sat Mar 20 08:10:50.462041 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65347] Traceback (most recent call last):\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:10:50.462041 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65347]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 24, in <module>\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:10:50.462041 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65347]     application = get_wsgi_application()\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:10:50.462041 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65347]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:10:50.462041 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65347]     django.setup(set_prefix=False)\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:10:50.462041 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65347]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\__init__.py", line 19, in setup\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:10:50.462041 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65347]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:10:50.462041 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65347]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 82, in __getattr__\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:10:50.462041 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65347]     self._setup(name)\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:10:50.462041 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65347]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 69, in _setup\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:10:50.462041 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65347]     self._wrapped = Settings(settings_module)\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:10:50.462041 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65347]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 170, in __init__\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:10:50.462041 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65347]     mod = importlib.import_module(self.SETTINGS_MODULE)\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:10:50.462041 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65347]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\__init__.py", line 127, in import_module\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:10:50.462041 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65347]     return _bootstrap._gcd_import(name[level:], package, level)\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:10:50.462041 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65347]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:10:50.462041 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65347]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:10:50.462041 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65347]   File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:10:50.462041 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65347]   File "<frozen importlib._bootstrap>", line 680, in _load_unlocked\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:10:50.462041 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65347]   File "<frozen importlib._bootstrap_external>", line 790, in exec_module\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:10:50.462041 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65347]   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:10:50.462041 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65347]   File "C:\\Users\\angel\\Proyectos\\webIqlim\\webIqlim\\settings.py", line 148, in <module>\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:10:50.462041 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65347]     EMAIL_PORT=int(os.getenv('PTO_MAILHOST'))\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:10:50.462041 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65347] TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:22:40.017550 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65400] mod_wsgi (pid=1068): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Sat Mar 20 08:22:40.017550 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65400] mod_wsgi (pid=1068): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Sat Mar 20 08:22:40.017550 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65400] Traceback (most recent call last):\r
+[Sat Mar 20 08:22:40.017550 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65400]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 24, in <module>\r
+[Sat Mar 20 08:22:40.017550 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65400]     application = get_wsgi_application()\r
+[Sat Mar 20 08:22:40.017550 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65400]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r
+[Sat Mar 20 08:22:40.017550 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65400]     django.setup(set_prefix=False)\r
+[Sat Mar 20 08:22:40.017550 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65400]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\__init__.py", line 19, in setup\r
+[Sat Mar 20 08:22:40.017550 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65400]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)\r
+[Sat Mar 20 08:22:40.017550 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65400]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 82, in __getattr__\r
+[Sat Mar 20 08:22:40.018514 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65400]     self._setup(name)\r
+[Sat Mar 20 08:22:40.018514 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65400]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 69, in _setup\r
+[Sat Mar 20 08:22:40.018514 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65400]     self._wrapped = Settings(settings_module)\r
+[Sat Mar 20 08:22:40.018514 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65400]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 189, in __init__\r
+[Sat Mar 20 08:22:40.018514 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65400]     raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")\r
+[Sat Mar 20 08:22:40.018514 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65400] django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.\r
+[Sat Mar 20 08:22:40.054514 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65401] mod_wsgi (pid=1068): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'., referer: http://webiqlim.com/
+[Sat Mar 20 08:22:40.054514 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65401] mod_wsgi (pid=1068): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'., referer: http://webiqlim.com/
+[Sat Mar 20 08:22:40.054514 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65401] Traceback (most recent call last):\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:22:40.054514 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65401]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 24, in <module>\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:22:40.054514 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65401]     application = get_wsgi_application()\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:22:40.054514 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65401]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:22:40.054514 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65401]     django.setup(set_prefix=False)\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:22:40.054514 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65401]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\__init__.py", line 19, in setup\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:22:40.054514 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65401]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:22:40.054514 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65401]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 82, in __getattr__\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:22:40.054514 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65401]     self._setup(name)\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:22:40.054514 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65401]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 69, in _setup\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:22:40.054514 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65401]     self._wrapped = Settings(settings_module)\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:22:40.054514 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65401]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 189, in __init__\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:22:40.054514 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65401]     raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:22:40.054514 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65401] django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:32:48.672462 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65455] mod_wsgi (pid=1068): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Sat Mar 20 08:32:48.672462 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65455] mod_wsgi (pid=1068): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Sat Mar 20 08:32:48.672462 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65455] Traceback (most recent call last):\r
+[Sat Mar 20 08:32:48.672462 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65455]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 24, in <module>\r
+[Sat Mar 20 08:32:48.672462 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65455]     application = get_wsgi_application()\r
+[Sat Mar 20 08:32:48.672462 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65455]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r
+[Sat Mar 20 08:32:48.672462 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65455]     django.setup(set_prefix=False)\r
+[Sat Mar 20 08:32:48.672462 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65455]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\__init__.py", line 19, in setup\r
+[Sat Mar 20 08:32:48.672462 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65455]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)\r
+[Sat Mar 20 08:32:48.672462 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65455]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 82, in __getattr__\r
+[Sat Mar 20 08:32:48.672462 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65455]     self._setup(name)\r
+[Sat Mar 20 08:32:48.672462 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65455]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 69, in _setup\r
+[Sat Mar 20 08:32:48.672462 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65455]     self._wrapped = Settings(settings_module)\r
+[Sat Mar 20 08:32:48.672462 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65455]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 189, in __init__\r
+[Sat Mar 20 08:32:48.672462 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65455]     raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")\r
+[Sat Mar 20 08:32:48.672462 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:65455] django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.\r
+[Sat Mar 20 08:32:48.732427 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65456] mod_wsgi (pid=1068): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'., referer: http://webiqlim.com/
+[Sat Mar 20 08:32:48.732427 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65456] mod_wsgi (pid=1068): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'., referer: http://webiqlim.com/
+[Sat Mar 20 08:32:48.732427 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65456] Traceback (most recent call last):\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:32:48.732427 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65456]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 24, in <module>\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:32:48.732427 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65456]     application = get_wsgi_application()\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:32:48.732427 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65456]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:32:48.732427 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65456]     django.setup(set_prefix=False)\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:32:48.732427 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65456]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\__init__.py", line 19, in setup\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:32:48.732427 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65456]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:32:48.732427 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65456]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 82, in __getattr__\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:32:48.732427 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65456]     self._setup(name)\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:32:48.732427 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65456]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 69, in _setup\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:32:48.732427 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65456]     self._wrapped = Settings(settings_module)\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:32:48.732427 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65456]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 189, in __init__\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:32:48.732427 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65456]     raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")\r, referer: http://webiqlim.com/
+[Sat Mar 20 08:32:48.732427 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:65456] django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:01:49.523129 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50224] mod_wsgi (pid=1068): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Sat Mar 20 09:01:49.524129 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50224] mod_wsgi (pid=1068): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Sat Mar 20 09:01:49.524129 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50224] Traceback (most recent call last):\r
+[Sat Mar 20 09:01:49.524129 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50224]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 24, in <module>\r
+[Sat Mar 20 09:01:49.524129 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50224]     application = get_wsgi_application()\r
+[Sat Mar 20 09:01:49.524129 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50224]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r
+[Sat Mar 20 09:01:49.524129 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50224]     django.setup(set_prefix=False)\r
+[Sat Mar 20 09:01:49.524129 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50224]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\__init__.py", line 19, in setup\r
+[Sat Mar 20 09:01:49.524129 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50224]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)\r
+[Sat Mar 20 09:01:49.524129 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50224]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 82, in __getattr__\r
+[Sat Mar 20 09:01:49.524129 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50224]     self._setup(name)\r
+[Sat Mar 20 09:01:49.524129 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50224]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 69, in _setup\r
+[Sat Mar 20 09:01:49.524129 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50224]     self._wrapped = Settings(settings_module)\r
+[Sat Mar 20 09:01:49.524129 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50224]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 189, in __init__\r
+[Sat Mar 20 09:01:49.524129 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50224]     raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")\r
+[Sat Mar 20 09:01:49.524129 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50224] django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.\r
+[Sat Mar 20 09:01:49.582587 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50225] mod_wsgi (pid=1068): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'., referer: http://webiqlim.com/
+[Sat Mar 20 09:01:49.582587 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50225] mod_wsgi (pid=1068): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'., referer: http://webiqlim.com/
+[Sat Mar 20 09:01:49.582587 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50225] Traceback (most recent call last):\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:01:49.582587 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50225]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 24, in <module>\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:01:49.583587 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50225]     application = get_wsgi_application()\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:01:49.583587 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50225]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:01:49.583587 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50225]     django.setup(set_prefix=False)\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:01:49.583587 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50225]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\__init__.py", line 19, in setup\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:01:49.583587 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50225]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:01:49.583587 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50225]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 82, in __getattr__\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:01:49.583587 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50225]     self._setup(name)\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:01:49.583587 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50225]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 69, in _setup\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:01:49.583587 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50225]     self._wrapped = Settings(settings_module)\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:01:49.583587 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50225]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 189, in __init__\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:01:49.583587 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50225]     raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:01:49.583587 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50225] django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:12:46.490765 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50260] mod_wsgi (pid=1068): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Sat Mar 20 09:12:46.490765 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50260] mod_wsgi (pid=1068): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Sat Mar 20 09:12:46.490765 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50260] Traceback (most recent call last):\r
+[Sat Mar 20 09:12:46.490765 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50260]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 24, in <module>\r
+[Sat Mar 20 09:12:46.490765 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50260]     application = get_wsgi_application()\r
+[Sat Mar 20 09:12:46.490765 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50260]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r
+[Sat Mar 20 09:12:46.490765 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50260]     django.setup(set_prefix=False)\r
+[Sat Mar 20 09:12:46.490765 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50260]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\__init__.py", line 19, in setup\r
+[Sat Mar 20 09:12:46.490765 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50260]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)\r
+[Sat Mar 20 09:12:46.490765 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50260]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 82, in __getattr__\r
+[Sat Mar 20 09:12:46.490765 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50260]     self._setup(name)\r
+[Sat Mar 20 09:12:46.490765 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50260]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 69, in _setup\r
+[Sat Mar 20 09:12:46.490765 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50260]     self._wrapped = Settings(settings_module)\r
+[Sat Mar 20 09:12:46.490765 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50260]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 189, in __init__\r
+[Sat Mar 20 09:12:46.490765 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50260]     raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")\r
+[Sat Mar 20 09:12:46.490765 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50260] django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.\r
+[Sat Mar 20 09:12:46.541241 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50261] mod_wsgi (pid=1068): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'., referer: http://webiqlim.com/
+[Sat Mar 20 09:12:46.541241 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50261] mod_wsgi (pid=1068): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'., referer: http://webiqlim.com/
+[Sat Mar 20 09:12:46.541241 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50261] Traceback (most recent call last):\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:12:46.541241 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50261]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 24, in <module>\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:12:46.541241 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50261]     application = get_wsgi_application()\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:12:46.542241 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50261]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:12:46.542241 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50261]     django.setup(set_prefix=False)\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:12:46.542241 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50261]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\__init__.py", line 19, in setup\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:12:46.542241 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50261]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:12:46.542241 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50261]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 82, in __getattr__\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:12:46.542241 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50261]     self._setup(name)\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:12:46.542241 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50261]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 69, in _setup\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:12:46.542241 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50261]     self._wrapped = Settings(settings_module)\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:12:46.542241 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50261]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 189, in __init__\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:12:46.542241 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50261]     raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:12:46.542241 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50261] django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:14:23.215800 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50274] mod_wsgi (pid=1068): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Sat Mar 20 09:14:23.215800 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50274] mod_wsgi (pid=1068): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Sat Mar 20 09:14:23.216796 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50274] Traceback (most recent call last):\r
+[Sat Mar 20 09:14:23.216796 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50274]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 24, in <module>\r
+[Sat Mar 20 09:14:23.216796 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50274]     application = get_wsgi_application()\r
+[Sat Mar 20 09:14:23.216796 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50274]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r
+[Sat Mar 20 09:14:23.216796 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50274]     django.setup(set_prefix=False)\r
+[Sat Mar 20 09:14:23.216796 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50274]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\__init__.py", line 19, in setup\r
+[Sat Mar 20 09:14:23.216796 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50274]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)\r
+[Sat Mar 20 09:14:23.216796 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50274]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 82, in __getattr__\r
+[Sat Mar 20 09:14:23.216796 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50274]     self._setup(name)\r
+[Sat Mar 20 09:14:23.216796 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50274]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 69, in _setup\r
+[Sat Mar 20 09:14:23.216796 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50274]     self._wrapped = Settings(settings_module)\r
+[Sat Mar 20 09:14:23.216796 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50274]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 189, in __init__\r
+[Sat Mar 20 09:14:23.216796 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50274]     raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")\r
+[Sat Mar 20 09:14:23.216796 2021] [wsgi:error] [pid 1068:tid 1448] [client 127.0.0.1:50274] django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.\r
+[Sat Mar 20 09:14:23.248804 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50275] mod_wsgi (pid=1068): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'., referer: http://webiqlim.com/
+[Sat Mar 20 09:14:23.248804 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50275] mod_wsgi (pid=1068): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'., referer: http://webiqlim.com/
+[Sat Mar 20 09:14:23.249816 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50275] Traceback (most recent call last):\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:14:23.249816 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50275]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 24, in <module>\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:14:23.249816 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50275]     application = get_wsgi_application()\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:14:23.249816 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50275]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:14:23.249816 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50275]     django.setup(set_prefix=False)\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:14:23.249816 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50275]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\__init__.py", line 19, in setup\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:14:23.249816 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50275]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:14:23.249816 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50275]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 82, in __getattr__\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:14:23.249816 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50275]     self._setup(name)\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:14:23.249816 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50275]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 69, in _setup\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:14:23.249816 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50275]     self._wrapped = Settings(settings_module)\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:14:23.249816 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50275]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 189, in __init__\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:14:23.249816 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50275]     raise ImproperlyConfigured("The SECRET_KEY setting must not be empty.")\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:14:23.249816 2021] [wsgi:error] [pid 1068:tid 1444] [client 127.0.0.1:50275] django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be empty.\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:17:52.272504 2021] [wsgi:error] [pid 19464:tid 1440] [client 127.0.0.1:50298] Not Found: /favicon.ico\r, referer: http://webiqlim.com/
+[Sat Mar 20 09:20:57.593730 2021] [wsgi:error] [pid 14712:tid 1416] [client 127.0.0.1:50326] mod_wsgi (pid=14712): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Sat Mar 20 09:20:57.594734 2021] [wsgi:error] [pid 14712:tid 1416] [client 127.0.0.1:50326] mod_wsgi (pid=14712): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Sat Mar 20 09:20:57.596725 2021] [wsgi:error] [pid 14712:tid 1416] [client 127.0.0.1:50326] Traceback (most recent call last):\r
+[Sat Mar 20 09:20:57.596725 2021] [wsgi:error] [pid 14712:tid 1416] [client 127.0.0.1:50326]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 24, in <module>\r
+[Sat Mar 20 09:20:57.596725 2021] [wsgi:error] [pid 14712:tid 1416] [client 127.0.0.1:50326]     application = get_wsgi_application()\r
+[Sat Mar 20 09:20:57.596725 2021] [wsgi:error] [pid 14712:tid 1416] [client 127.0.0.1:50326]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r
+[Sat Mar 20 09:20:57.596725 2021] [wsgi:error] [pid 14712:tid 1416] [client 127.0.0.1:50326]     django.setup(set_prefix=False)\r
+[Sat Mar 20 09:20:57.596725 2021] [wsgi:error] [pid 14712:tid 1416] [client 127.0.0.1:50326]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\__init__.py", line 19, in setup\r
+[Sat Mar 20 09:20:57.596725 2021] [wsgi:error] [pid 14712:tid 1416] [client 127.0.0.1:50326]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)\r
+[Sat Mar 20 09:20:57.596725 2021] [wsgi:error] [pid 14712:tid 1416] [client 127.0.0.1:50326]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 82, in __getattr__\r
+[Sat Mar 20 09:20:57.596725 2021] [wsgi:error] [pid 14712:tid 1416] [client 127.0.0.1:50326]     self._setup(name)\r
+[Sat Mar 20 09:20:57.596725 2021] [wsgi:error] [pid 14712:tid 1416] [client 127.0.0.1:50326]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 69, in _setup\r
+[Sat Mar 20 09:20:57.596725 2021] [wsgi:error] [pid 14712:tid 1416] [client 127.0.0.1:50326]     self._wrapped = Settings(settings_module)\r
+[Sat Mar 20 09:20:57.596725 2021] [wsgi:error] [pid 14712:tid 1416] [client 127.0.0.1:50326]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 170, in __init__\r
+[Sat Mar 20 09:20:57.596725 2021] [wsgi:error] [pid 14712:tid 1416] [client 127.0.0.1:50326]     mod = importlib.import_module(self.SETTINGS_MODULE)\r
+[Sat Mar 20 09:20:57.596725 2021] [wsgi:error] [pid 14712:tid 1416] [client 127.0.0.1:50326]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\__init__.py", line 127, in import_module\r
+[Sat Mar 20 09:20:57.596725 2021] [wsgi:error] [pid 14712:tid 1416] [client 127.0.0.1:50326]     return _bootstrap._gcd_import(name[level:], package, level)\r
+[Sat Mar 20 09:20:57.596725 2021] [wsgi:error] [pid 14712:tid 1416] [client 127.0.0.1:50326]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import\r
+[Sat Mar 20 09:20:57.596725 2021] [wsgi:error] [pid 14712:tid 1416] [client 127.0.0.1:50326]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load\r
+[Sat Mar 20 09:20:57.596725 2021] [wsgi:error] [pid 14712:tid 1416] [client 127.0.0.1:50326]   File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked\r
+[Sat Mar 20 09:20:57.596725 2021] [wsgi:error] [pid 14712:tid 1416] [client 127.0.0.1:50326]   File "<frozen importlib._bootstrap>", line 680, in _load_unlocked\r
+[Sat Mar 20 09:20:57.596725 2021] [wsgi:error] [pid 14712:tid 1416] [client 127.0.0.1:50326]   File "<frozen importlib._bootstrap_external>", line 790, in exec_module\r
+[Sat Mar 20 09:20:57.596725 2021] [wsgi:error] [pid 14712:tid 1416] [client 127.0.0.1:50326]   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed\r
+[Sat Mar 20 09:20:57.596725 2021] [wsgi:error] [pid 14712:tid 1416] [client 127.0.0.1:50326]   File "C:\\Users\\angel\\Proyectos\\webIqlim\\webIqlim\\settings.py", line 148, in <module>\r
+[Sat Mar 20 09:20:57.596725 2021] [wsgi:error] [pid 14712:tid 1416] [client 127.0.0.1:50326]     EMAIL_PORT=int(os.getenv('PTO_MAILHOST'))\r
+[Sat Mar 20 09:20:57.596725 2021] [wsgi:error] [pid 14712:tid 1416] [client 127.0.0.1:50326] TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'\r
+[Sat Mar 20 10:33:55.332660 2021] [wsgi:error] [pid 22988:tid 1440] [client 127.0.0.1:51866] Not Found: /favicon.ico\r, referer: http://webiqlim.com/
+[Sat Mar 20 11:11:30.988459 2021] [wsgi:error] [pid 15548:tid 1412] [client 127.0.0.1:52153] mod_wsgi (pid=15548): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Sat Mar 20 11:11:30.988459 2021] [wsgi:error] [pid 15548:tid 1412] [client 127.0.0.1:52153] mod_wsgi (pid=15548): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Sat Mar 20 11:11:30.990457 2021] [wsgi:error] [pid 15548:tid 1412] [client 127.0.0.1:52153] Traceback (most recent call last):\r
+[Sat Mar 20 11:11:30.990457 2021] [wsgi:error] [pid 15548:tid 1412] [client 127.0.0.1:52153]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 24, in <module>\r
+[Sat Mar 20 11:11:30.990457 2021] [wsgi:error] [pid 15548:tid 1412] [client 127.0.0.1:52153]     application = get_wsgi_application()\r
+[Sat Mar 20 11:11:30.990457 2021] [wsgi:error] [pid 15548:tid 1412] [client 127.0.0.1:52153]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r
+[Sat Mar 20 11:11:30.990457 2021] [wsgi:error] [pid 15548:tid 1412] [client 127.0.0.1:52153]     django.setup(set_prefix=False)\r
+[Sat Mar 20 11:11:30.990457 2021] [wsgi:error] [pid 15548:tid 1412] [client 127.0.0.1:52153]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\__init__.py", line 19, in setup\r
+[Sat Mar 20 11:11:30.990457 2021] [wsgi:error] [pid 15548:tid 1412] [client 127.0.0.1:52153]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)\r
+[Sat Mar 20 11:11:30.990457 2021] [wsgi:error] [pid 15548:tid 1412] [client 127.0.0.1:52153]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 82, in __getattr__\r
+[Sat Mar 20 11:11:30.990457 2021] [wsgi:error] [pid 15548:tid 1412] [client 127.0.0.1:52153]     self._setup(name)\r
+[Sat Mar 20 11:11:30.990457 2021] [wsgi:error] [pid 15548:tid 1412] [client 127.0.0.1:52153]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 69, in _setup\r
+[Sat Mar 20 11:11:30.990457 2021] [wsgi:error] [pid 15548:tid 1412] [client 127.0.0.1:52153]     self._wrapped = Settings(settings_module)\r
+[Sat Mar 20 11:11:30.990457 2021] [wsgi:error] [pid 15548:tid 1412] [client 127.0.0.1:52153]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 170, in __init__\r
+[Sat Mar 20 11:11:30.990457 2021] [wsgi:error] [pid 15548:tid 1412] [client 127.0.0.1:52153]     mod = importlib.import_module(self.SETTINGS_MODULE)\r
+[Sat Mar 20 11:11:30.990457 2021] [wsgi:error] [pid 15548:tid 1412] [client 127.0.0.1:52153]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\__init__.py", line 127, in import_module\r
+[Sat Mar 20 11:11:30.990457 2021] [wsgi:error] [pid 15548:tid 1412] [client 127.0.0.1:52153]     return _bootstrap._gcd_import(name[level:], package, level)\r
+[Sat Mar 20 11:11:30.990457 2021] [wsgi:error] [pid 15548:tid 1412] [client 127.0.0.1:52153]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import\r
+[Sat Mar 20 11:11:30.990457 2021] [wsgi:error] [pid 15548:tid 1412] [client 127.0.0.1:52153]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load\r
+[Sat Mar 20 11:11:30.990457 2021] [wsgi:error] [pid 15548:tid 1412] [client 127.0.0.1:52153]   File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked\r
+[Sat Mar 20 11:11:30.990457 2021] [wsgi:error] [pid 15548:tid 1412] [client 127.0.0.1:52153]   File "<frozen importlib._bootstrap>", line 680, in _load_unlocked\r
+[Sat Mar 20 11:11:30.990457 2021] [wsgi:error] [pid 15548:tid 1412] [client 127.0.0.1:52153]   File "<frozen importlib._bootstrap_external>", line 790, in exec_module\r
+[Sat Mar 20 11:11:30.990457 2021] [wsgi:error] [pid 15548:tid 1412] [client 127.0.0.1:52153]   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed\r
+[Sat Mar 20 11:11:30.990457 2021] [wsgi:error] [pid 15548:tid 1412] [client 127.0.0.1:52153]   File "C:\\Users\\angel\\Proyectos\\webIqlim\\webIqlim\\settings.py", line 23, in <module>\r
+[Sat Mar 20 11:11:30.990457 2021] [wsgi:error] [pid 15548:tid 1412] [client 127.0.0.1:52153]     basedir = str(basepath.cwd())\r
+[Sat Mar 20 11:11:30.990457 2021] [wsgi:error] [pid 15548:tid 1412] [client 127.0.0.1:52153] AttributeError: 'str' object has no attribute 'cwd'\r
+[Sat Mar 20 11:29:37.670673 2021] [wsgi:error] [pid 15548:tid 1404] [client 127.0.0.1:52252] mod_wsgi (pid=15548): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Sat Mar 20 11:29:37.670673 2021] [wsgi:error] [pid 15548:tid 1404] [client 127.0.0.1:52252] mod_wsgi (pid=15548): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Sat Mar 20 11:29:37.671673 2021] [wsgi:error] [pid 15548:tid 1404] [client 127.0.0.1:52252] Traceback (most recent call last):\r
+[Sat Mar 20 11:29:37.671673 2021] [wsgi:error] [pid 15548:tid 1404] [client 127.0.0.1:52252]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 24, in <module>\r
+[Sat Mar 20 11:29:37.671673 2021] [wsgi:error] [pid 15548:tid 1404] [client 127.0.0.1:52252]     application = get_wsgi_application()\r
+[Sat Mar 20 11:29:37.671673 2021] [wsgi:error] [pid 15548:tid 1404] [client 127.0.0.1:52252]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r
+[Sat Mar 20 11:29:37.671673 2021] [wsgi:error] [pid 15548:tid 1404] [client 127.0.0.1:52252]     django.setup(set_prefix=False)\r
+[Sat Mar 20 11:29:37.671673 2021] [wsgi:error] [pid 15548:tid 1404] [client 127.0.0.1:52252]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\__init__.py", line 19, in setup\r
+[Sat Mar 20 11:29:37.671673 2021] [wsgi:error] [pid 15548:tid 1404] [client 127.0.0.1:52252]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)\r
+[Sat Mar 20 11:29:37.671673 2021] [wsgi:error] [pid 15548:tid 1404] [client 127.0.0.1:52252]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 82, in __getattr__\r
+[Sat Mar 20 11:29:37.671673 2021] [wsgi:error] [pid 15548:tid 1404] [client 127.0.0.1:52252]     self._setup(name)\r
+[Sat Mar 20 11:29:37.671673 2021] [wsgi:error] [pid 15548:tid 1404] [client 127.0.0.1:52252]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 69, in _setup\r
+[Sat Mar 20 11:29:37.671673 2021] [wsgi:error] [pid 15548:tid 1404] [client 127.0.0.1:52252]     self._wrapped = Settings(settings_module)\r
+[Sat Mar 20 11:29:37.671673 2021] [wsgi:error] [pid 15548:tid 1404] [client 127.0.0.1:52252]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 170, in __init__\r
+[Sat Mar 20 11:29:37.671673 2021] [wsgi:error] [pid 15548:tid 1404] [client 127.0.0.1:52252]     mod = importlib.import_module(self.SETTINGS_MODULE)\r
+[Sat Mar 20 11:29:37.671673 2021] [wsgi:error] [pid 15548:tid 1404] [client 127.0.0.1:52252]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\__init__.py", line 127, in import_module\r
+[Sat Mar 20 11:29:37.671673 2021] [wsgi:error] [pid 15548:tid 1404] [client 127.0.0.1:52252]     return _bootstrap._gcd_import(name[level:], package, level)\r
+[Sat Mar 20 11:29:37.671673 2021] [wsgi:error] [pid 15548:tid 1404] [client 127.0.0.1:52252]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import\r
+[Sat Mar 20 11:29:37.671673 2021] [wsgi:error] [pid 15548:tid 1404] [client 127.0.0.1:52252]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load\r
+[Sat Mar 20 11:29:37.671673 2021] [wsgi:error] [pid 15548:tid 1404] [client 127.0.0.1:52252]   File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked\r
+[Sat Mar 20 11:29:37.671673 2021] [wsgi:error] [pid 15548:tid 1404] [client 127.0.0.1:52252]   File "<frozen importlib._bootstrap>", line 680, in _load_unlocked\r
+[Sat Mar 20 11:29:37.671673 2021] [wsgi:error] [pid 15548:tid 1404] [client 127.0.0.1:52252]   File "<frozen importlib._bootstrap_external>", line 790, in exec_module\r
+[Sat Mar 20 11:29:37.671673 2021] [wsgi:error] [pid 15548:tid 1404] [client 127.0.0.1:52252]   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed\r
+[Sat Mar 20 11:29:37.671673 2021] [wsgi:error] [pid 15548:tid 1404] [client 127.0.0.1:52252]   File "C:\\Users\\angel\\Proyectos\\webIqlim\\webIqlim\\settings.py", line 149, in <module>\r
+[Sat Mar 20 11:29:37.671673 2021] [wsgi:error] [pid 15548:tid 1404] [client 127.0.0.1:52252]     EMAIL_PORT=int(os.getenv('PTO_MAILHOST'))\r
+[Sat Mar 20 11:29:37.671673 2021] [wsgi:error] [pid 15548:tid 1404] [client 127.0.0.1:52252] TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'\r
+[Sat Mar 20 11:32:00.213316 2021] [wsgi:error] [pid 1992:tid 1416] [client 127.0.0.1:52280] mod_wsgi (pid=1992): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Sat Mar 20 11:32:00.213316 2021] [wsgi:error] [pid 1992:tid 1416] [client 127.0.0.1:52280] mod_wsgi (pid=1992): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Sat Mar 20 11:32:00.215319 2021] [wsgi:error] [pid 1992:tid 1416] [client 127.0.0.1:52280] Traceback (most recent call last):\r
+[Sat Mar 20 11:32:00.215319 2021] [wsgi:error] [pid 1992:tid 1416] [client 127.0.0.1:52280]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 24, in <module>\r
+[Sat Mar 20 11:32:00.215319 2021] [wsgi:error] [pid 1992:tid 1416] [client 127.0.0.1:52280]     application = get_wsgi_application()\r
+[Sat Mar 20 11:32:00.215319 2021] [wsgi:error] [pid 1992:tid 1416] [client 127.0.0.1:52280]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r
+[Sat Mar 20 11:32:00.215319 2021] [wsgi:error] [pid 1992:tid 1416] [client 127.0.0.1:52280]     django.setup(set_prefix=False)\r
+[Sat Mar 20 11:32:00.216319 2021] [wsgi:error] [pid 1992:tid 1416] [client 127.0.0.1:52280]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\__init__.py", line 19, in setup\r
+[Sat Mar 20 11:32:00.216319 2021] [wsgi:error] [pid 1992:tid 1416] [client 127.0.0.1:52280]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)\r
+[Sat Mar 20 11:32:00.216319 2021] [wsgi:error] [pid 1992:tid 1416] [client 127.0.0.1:52280]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 82, in __getattr__\r
+[Sat Mar 20 11:32:00.216319 2021] [wsgi:error] [pid 1992:tid 1416] [client 127.0.0.1:52280]     self._setup(name)\r
+[Sat Mar 20 11:32:00.216319 2021] [wsgi:error] [pid 1992:tid 1416] [client 127.0.0.1:52280]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 69, in _setup\r
+[Sat Mar 20 11:32:00.216319 2021] [wsgi:error] [pid 1992:tid 1416] [client 127.0.0.1:52280]     self._wrapped = Settings(settings_module)\r
+[Sat Mar 20 11:32:00.216319 2021] [wsgi:error] [pid 1992:tid 1416] [client 127.0.0.1:52280]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 170, in __init__\r
+[Sat Mar 20 11:32:00.216319 2021] [wsgi:error] [pid 1992:tid 1416] [client 127.0.0.1:52280]     mod = importlib.import_module(self.SETTINGS_MODULE)\r
+[Sat Mar 20 11:32:00.216319 2021] [wsgi:error] [pid 1992:tid 1416] [client 127.0.0.1:52280]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\__init__.py", line 127, in import_module\r
+[Sat Mar 20 11:32:00.216319 2021] [wsgi:error] [pid 1992:tid 1416] [client 127.0.0.1:52280]     return _bootstrap._gcd_import(name[level:], package, level)\r
+[Sat Mar 20 11:32:00.216319 2021] [wsgi:error] [pid 1992:tid 1416] [client 127.0.0.1:52280]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import\r
+[Sat Mar 20 11:32:00.216319 2021] [wsgi:error] [pid 1992:tid 1416] [client 127.0.0.1:52280]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load\r
+[Sat Mar 20 11:32:00.216319 2021] [wsgi:error] [pid 1992:tid 1416] [client 127.0.0.1:52280]   File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked\r
+[Sat Mar 20 11:32:00.216319 2021] [wsgi:error] [pid 1992:tid 1416] [client 127.0.0.1:52280]   File "<frozen importlib._bootstrap>", line 680, in _load_unlocked\r
+[Sat Mar 20 11:32:00.216319 2021] [wsgi:error] [pid 1992:tid 1416] [client 127.0.0.1:52280]   File "<frozen importlib._bootstrap_external>", line 790, in exec_module\r
+[Sat Mar 20 11:32:00.216319 2021] [wsgi:error] [pid 1992:tid 1416] [client 127.0.0.1:52280]   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed\r
+[Sat Mar 20 11:32:00.216319 2021] [wsgi:error] [pid 1992:tid 1416] [client 127.0.0.1:52280]   File "C:\\Users\\angel\\Proyectos\\webIqlim\\webIqlim\\settings.py", line 149, in <module>\r
+[Sat Mar 20 11:32:00.216319 2021] [wsgi:error] [pid 1992:tid 1416] [client 127.0.0.1:52280]     EMAIL_PORT=int(os.getenv('PTO_MAILHOST'))\r
+[Sat Mar 20 11:32:00.216319 2021] [wsgi:error] [pid 1992:tid 1416] [client 127.0.0.1:52280] TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'\r
+[Sat Mar 20 11:33:54.365774 2021] [wsgi:error] [pid 10684:tid 1412] [client 127.0.0.1:52289] mod_wsgi (pid=10684): Failed to exec Python script file 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Sat Mar 20 11:33:54.366736 2021] [wsgi:error] [pid 10684:tid 1412] [client 127.0.0.1:52289] mod_wsgi (pid=10684): Exception occurred processing WSGI script 'C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py'.
+[Sat Mar 20 11:33:54.367782 2021] [wsgi:error] [pid 10684:tid 1412] [client 127.0.0.1:52289] Traceback (most recent call last):\r
+[Sat Mar 20 11:33:54.368775 2021] [wsgi:error] [pid 10684:tid 1412] [client 127.0.0.1:52289]   File "C:/Users/angel/Proyectos/webIqlim/webIqlim/wsgi.py", line 24, in <module>\r
+[Sat Mar 20 11:33:54.368775 2021] [wsgi:error] [pid 10684:tid 1412] [client 127.0.0.1:52289]     application = get_wsgi_application()\r
+[Sat Mar 20 11:33:54.368775 2021] [wsgi:error] [pid 10684:tid 1412] [client 127.0.0.1:52289]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\core\\wsgi.py", line 12, in get_wsgi_application\r
+[Sat Mar 20 11:33:54.368775 2021] [wsgi:error] [pid 10684:tid 1412] [client 127.0.0.1:52289]     django.setup(set_prefix=False)\r
+[Sat Mar 20 11:33:54.368775 2021] [wsgi:error] [pid 10684:tid 1412] [client 127.0.0.1:52289]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\__init__.py", line 19, in setup\r
+[Sat Mar 20 11:33:54.368775 2021] [wsgi:error] [pid 10684:tid 1412] [client 127.0.0.1:52289]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)\r
+[Sat Mar 20 11:33:54.368775 2021] [wsgi:error] [pid 10684:tid 1412] [client 127.0.0.1:52289]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 82, in __getattr__\r
+[Sat Mar 20 11:33:54.368775 2021] [wsgi:error] [pid 10684:tid 1412] [client 127.0.0.1:52289]     self._setup(name)\r
+[Sat Mar 20 11:33:54.368775 2021] [wsgi:error] [pid 10684:tid 1412] [client 127.0.0.1:52289]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 69, in _setup\r
+[Sat Mar 20 11:33:54.368775 2021] [wsgi:error] [pid 10684:tid 1412] [client 127.0.0.1:52289]     self._wrapped = Settings(settings_module)\r
+[Sat Mar 20 11:33:54.368775 2021] [wsgi:error] [pid 10684:tid 1412] [client 127.0.0.1:52289]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\django\\conf\\__init__.py", line 170, in __init__\r
+[Sat Mar 20 11:33:54.368775 2021] [wsgi:error] [pid 10684:tid 1412] [client 127.0.0.1:52289]     mod = importlib.import_module(self.SETTINGS_MODULE)\r
+[Sat Mar 20 11:33:54.368775 2021] [wsgi:error] [pid 10684:tid 1412] [client 127.0.0.1:52289]   File "C:\\Users\\angel\\AppData\\Local\\Programs\\Python\\Python39\\lib\\importlib\\__init__.py", line 127, in import_module\r
+[Sat Mar 20 11:33:54.368775 2021] [wsgi:error] [pid 10684:tid 1412] [client 127.0.0.1:52289]     return _bootstrap._gcd_import(name[level:], package, level)\r
+[Sat Mar 20 11:33:54.368775 2021] [wsgi:error] [pid 10684:tid 1412] [client 127.0.0.1:52289]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import\r
+[Sat Mar 20 11:33:54.368775 2021] [wsgi:error] [pid 10684:tid 1412] [client 127.0.0.1:52289]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load\r
+[Sat Mar 20 11:33:54.368775 2021] [wsgi:error] [pid 10684:tid 1412] [client 127.0.0.1:52289]   File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked\r
+[Sat Mar 20 11:33:54.368775 2021] [wsgi:error] [pid 10684:tid 1412] [client 127.0.0.1:52289]   File "<frozen importlib._bootstrap>", line 680, in _load_unlocked\r
+[Sat Mar 20 11:33:54.368775 2021] [wsgi:error] [pid 10684:tid 1412] [client 127.0.0.1:52289]   File "<frozen importlib._bootstrap_external>", line 790, in exec_module\r
+[Sat Mar 20 11:33:54.368775 2021] [wsgi:error] [pid 10684:tid 1412] [client 127.0.0.1:52289]   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed\r
+[Sat Mar 20 11:33:54.368775 2021] [wsgi:error] [pid 10684:tid 1412] [client 127.0.0.1:52289]   File "C:\\Users\\angel\\Proyectos\\webIqlim\\webIqlim\\settings.py", line 149, in <module>\r
+[Sat Mar 20 11:33:54.368775 2021] [wsgi:error] [pid 10684:tid 1412] [client 127.0.0.1:52289]     EMAIL_PORT=int(os.getenv('PTO_MAILHOST'))\r
+[Sat Mar 20 11:33:54.368775 2021] [wsgi:error] [pid 10684:tid 1412] [client 127.0.0.1:52289] TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'\r
